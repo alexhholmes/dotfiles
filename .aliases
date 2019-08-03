@@ -11,3 +11,4 @@ alias ll='colorls --group-directories-first --almost-all --gs --long'
 # Misc
 alias reload='source .zshrc'
 alias s='du -hsc $(ls -A)' # Show size of current folder
+alias wttr='curl http://wttr.in/' # Show weather
