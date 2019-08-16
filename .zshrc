@@ -100,4 +100,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# TheFuck
 eval $(thefuck --alias)
+export PATH="/usr/local/sbin:$PATH"
