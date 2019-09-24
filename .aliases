@@ -4,9 +4,10 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
-# LS
+# LS and dirs
 alias l='colorls --group-directories-first --almost-all'
 alias ll='colorls --group-directories-first --almost-all --gs --long'
+alias dirs='dirs -v'
 
 # Misc
 alias reload='source .zshrc'
