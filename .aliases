@@ -9,8 +9,12 @@ alias l='colorls --group-directories-first --almost-all'
 alias ll='colorls --group-directories-first --almost-all --gs --long'
 alias dirs='dirs -v'
 
+# Qemu
+alias qemu='qemu-system-x86_64'
+
 # Misc
-alias reload='source .zshrc'
+alias reload='source ~/.zshrc'
 alias s='du -hsc $(ls -A)' # Show size of current folder
 alias wttr='curl http://wttr.in/' # Show weather
 alias please='sudo'
+alias whothis='whoami'
