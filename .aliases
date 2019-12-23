@@ -5,12 +5,17 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 # LS and dirs
-alias l='colorls --group-directories-first --almost-all'
-alias ll='colorls --group-directories-first --almost-all --gs --long'
 alias dirs='dirs -v'
 
 # Qemu
 alias qemu='qemu-system-x86_64'
+
+# Python
+alias python='python3'
+alias pip='pip3'
+
+# Transmission-cli
+alias tsm='transmission-remote'
 
 # Misc
 alias reload='source ~/.zshrc'
