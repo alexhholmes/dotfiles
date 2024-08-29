@@ -1,0 +1,52 @@
+# Folder navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# LS and dirs
+alias p='pwd'
+alias pc='pwd | tee /dev/tty | pbcopy' # Print pwd and copy to clipboard
+alias dirs='dirs -v'
+alias lt='ll -t'
+alias lk='ll -S'
+alias ltt='ll -t --color=always | tac'
+alias lkk='ll -S --color=always | tac'
+
+# Docker
+alias rmc='docker rm "$(docker ps --filter status=exited -q)"'
+alias rmca='docker rm "$(docker ps --filter status=exited --filter status=created -q)"'
+
+# fzf
+alias f="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
+alias fvf='vim $(fzf --height 40% --reverse)'
+alias hist='history | fzf'
+alias fpf="ps aux | sed 1,1d | fzf --height 40% --reverse | sed -rn 's/^[^0-9]+[ ]+([0-9]+)[ ]+.*/\1/p'" # Print process ID
+
+# Python
+alias python='python3'
+alias pip='pip3'
+
+# Go
+alias air='$GOPATH/bin/air'
+
+# Kubectl
+alias k='kubectl'
+
+# Transmission-cli
+alias tsm='transmission-remote'
+
+# Multipass
+alias mp='multipass'
+alias mpl='multipass list'
+alias mps='multipass exec'
+alias mpi='multipass info'
+
+# Misc
+alias reload='source ~/.zshrc'
+alias s='du -h' # Show size of current folder
+alias wttr='curl http://wttr.in/' # Show weather
+alias please='sudo'
+alias whothis='whoami'
+alias copy='pbcopy'
+alias zshrc='vim ~/.zshrc'
+alias vimrc='vim ~/.vimrc'
