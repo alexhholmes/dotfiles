@@ -1,0 +1,3 @@
+com.intellij.ml.llm
+IdeaVIM
+com.github.copilot

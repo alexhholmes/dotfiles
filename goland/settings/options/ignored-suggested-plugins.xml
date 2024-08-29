@@ -1,0 +1,13 @@
+<application>
+  <component name="IgnoredPluginSuggestions">
+    <option name="pluginIds">
+      <list>
+        <option value="com.intellij.tailwindcss" />
+        <option value="intellij.prettierJS" />
+        <option value="intellij.nextjs" />
+        <option value="org.jetbrains.plugins.vue" />
+        <option value="org.intellij.plugins.postcss" />
+      </list>
+    </option>
+  </component>
+</application>

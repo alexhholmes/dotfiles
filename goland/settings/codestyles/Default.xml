@@ -1,0 +1,29 @@
+<code_scheme name="Default" version="173">
+  <option name="RIGHT_MARGIN" value="90" />
+  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+  <option name="SOFT_MARGINS" value="90" />
+  <GoCodeStyleSettings>
+    <option name="REMOVE_REDUNDANT_IMPORT_ALIASES" value="true" />
+    <option name="ADD_LEADING_SPACE_TO_COMMENTS" value="true" />
+    <option name="COMMENTS_WITHOUT_LEADING_SPACE">
+      <value>
+        <prefixes>
+          <prefix value="go:" />
+        </prefixes>
+      </value>
+    </option>
+    <option name="MOVE_ALL_IMPORTS_IN_ONE_DECLARATION" value="true" />
+    <option name="MOVE_ALL_STDLIB_IMPORTS_IN_ONE_GROUP" value="true" />
+    <option name="GROUP_STDLIB_IMPORTS" value="true" />
+    <option name="CREATE_LOCAL_GROUP" value="true" />
+    <option name="LOCAL_PACKAGE_PREFIXES" />
+    <option name="WRAP_COMP_LIT" value="1" />
+    <option name="WRAP_FUNC_PARAMS" value="5" />
+    <option name="WRAP_FUNC_RESULT" value="5" />
+  </GoCodeStyleSettings>
+  <codeStyleSettings language="go">
+    <option name="RIGHT_MARGIN" value="90" />
+    <option name="WRAP_ON_TYPING" value="1" />
+    <option name="SOFT_MARGINS" value="80" />
+  </codeStyleSettings>
+</code_scheme>

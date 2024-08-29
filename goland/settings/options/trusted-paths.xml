@@ -1,0 +1,35 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Workspace/app-engine-tutorial" value="true" />
+        <entry key="$USER_HOME$/Workspace/branded-types" value="true" />
+        <entry key="$USER_HOME$/Workspace/consul" value="true" />
+        <entry key="$USER_HOME$/Workspace/containerd" value="false" />
+        <entry key="$USER_HOME$/Workspace/crud-example" value="true" />
+        <entry key="$USER_HOME$/Workspace/crud-go" value="true" />
+        <entry key="$USER_HOME$/Workspace/distributed-db" value="true" />
+        <entry key="$USER_HOME$/Workspace/dsa" value="true" />
+        <entry key="$USER_HOME$/Workspace/gendog" value="true" />
+        <entry key="$USER_HOME$/Workspace/go-lambda" value="true" />
+        <entry key="$USER_HOME$/Workspace/guniq" value="true" />
+        <entry key="$USER_HOME$/Workspace/hello-go" value="true" />
+        <entry key="$USER_HOME$/Workspace/iter" value="true" />
+        <entry key="$USER_HOME$/Workspace/letter-composition" value="true" />
+        <entry key="$USER_HOME$/Workspace/lsm" value="true" />
+        <entry key="$USER_HOME$/Workspace/mailchump" value="true" />
+        <entry key="$USER_HOME$/Workspace/mailing-list" value="true" />
+        <entry key="$USER_HOME$/Workspace/mapreduce" value="true" />
+        <entry key="$USER_HOME$/Workspace/oapi-codegen" value="true" />
+        <entry key="$USER_HOME$/Workspace/pg-queue-sender" value="true" />
+        <entry key="$USER_HOME$/Workspace/sit" value="true" />
+        <entry key="$USER_HOME$/Workspace/snowflake" value="true" />
+        <entry key="$USER_HOME$/Workspace/spudify-redux" value="true" />
+        <entry key="$USER_HOME$/Workspace/traefik" value="true" />
+        <entry key="$USER_HOME$/Workspace/twttr" value="true" />
+        <entry key="$USER_HOME$/Workspace/twttr-backend" value="true" />
+        <entry key="$USER_HOME$/Workspace/weather-sensor-api" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
