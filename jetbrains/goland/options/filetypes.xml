@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="19">
+    <extensionMap>
+      <mapping pattern="LICENSE" type="AUTO_DETECTED" />
+      <mapping ext="prof" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

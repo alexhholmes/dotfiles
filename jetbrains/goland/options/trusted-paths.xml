@@ -2,33 +2,71 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/Downloads/settings" value="true" />
+        <entry key="$USER_HOME$/Workspace/6.5840" value="true" />
         <entry key="$USER_HOME$/Workspace/app-engine-tutorial" value="true" />
+        <entry key="$USER_HOME$/Workspace/arenaskl" value="true" />
+        <entry key="$USER_HOME$/Workspace/badger" value="true" />
+        <entry key="$USER_HOME$/Workspace/boulder" value="true" />
         <entry key="$USER_HOME$/Workspace/branded-types" value="true" />
+        <entry key="$USER_HOME$/Workspace/bustub-go" value="true" />
+        <entry key="$USER_HOME$/Workspace/cadence" value="true" />
+        <entry key="$USER_HOME$/Workspace/cockroach" value="true" />
         <entry key="$USER_HOME$/Workspace/consul" value="true" />
         <entry key="$USER_HOME$/Workspace/containerd" value="false" />
+        <entry key="$USER_HOME$/Workspace/cow-trie" value="true" />
         <entry key="$USER_HOME$/Workspace/crud-example" value="true" />
         <entry key="$USER_HOME$/Workspace/crud-go" value="true" />
+        <entry key="$USER_HOME$/Workspace/db" value="true" />
         <entry key="$USER_HOME$/Workspace/distributed-db" value="true" />
         <entry key="$USER_HOME$/Workspace/dsa" value="true" />
+        <entry key="$USER_HOME$/Workspace/etcd" value="true" />
+        <entry key="$USER_HOME$/Workspace/fast-skiplist" value="true" />
+        <entry key="$USER_HOME$/Workspace/gavel" value="true" />
         <entry key="$USER_HOME$/Workspace/gendog" value="true" />
+        <entry key="$USER_HOME$/Workspace/gitdashboard" value="true" />
+        <entry key="$USER_HOME$/Workspace/go" value="true" />
+        <entry key="$USER_HOME$/Workspace/go-immutable-radix" value="true" />
         <entry key="$USER_HOME$/Workspace/go-lambda" value="true" />
+        <entry key="$USER_HOME$/Workspace/go-memdb" value="true" />
+        <entry key="$USER_HOME$/Workspace/gods" value="true" />
+        <entry key="$USER_HOME$/Workspace/goleveldb" value="true" />
+        <entry key="$USER_HOME$/Workspace/grpc-go" value="true" />
         <entry key="$USER_HOME$/Workspace/guniq" value="true" />
         <entry key="$USER_HOME$/Workspace/hello-go" value="true" />
         <entry key="$USER_HOME$/Workspace/iter" value="true" />
+        <entry key="$USER_HOME$/Workspace/jg" value="true" />
+        <entry key="$USER_HOME$/Workspace/jit" value="true" />
+        <entry key="$USER_HOME$/Workspace/kraken" value="true" />
         <entry key="$USER_HOME$/Workspace/letter-composition" value="true" />
+        <entry key="$USER_HOME$/Workspace/leveldb" value="true" />
+        <entry key="$USER_HOME$/Workspace/leveldb-go" value="true" />
         <entry key="$USER_HOME$/Workspace/lsm" value="true" />
         <entry key="$USER_HOME$/Workspace/mailchump" value="true" />
         <entry key="$USER_HOME$/Workspace/mailing-list" value="true" />
+        <entry key="$USER_HOME$/Workspace/map-reduce" value="true" />
         <entry key="$USER_HOME$/Workspace/mapreduce" value="true" />
+        <entry key="$USER_HOME$/Workspace/memdb" value="true" />
+        <entry key="$USER_HOME$/Workspace/minio" value="true" />
         <entry key="$USER_HOME$/Workspace/oapi-codegen" value="true" />
+        <entry key="$USER_HOME$/Workspace/orchestrion" value="true" />
+        <entry key="$USER_HOME$/Workspace/pebble" value="true" />
         <entry key="$USER_HOME$/Workspace/pg-queue-sender" value="true" />
+        <entry key="$USER_HOME$/Workspace/radix-tree" value="true" />
+        <entry key="$USER_HOME$/Workspace/seaweedfs" value="true" />
         <entry key="$USER_HOME$/Workspace/sit" value="true" />
         <entry key="$USER_HOME$/Workspace/snowflake" value="true" />
         <entry key="$USER_HOME$/Workspace/spudify-redux" value="true" />
+        <entry key="$USER_HOME$/Workspace/stringer-tmp" value="true" />
+        <entry key="$USER_HOME$/Workspace/tidb" value="true" />
+        <entry key="$USER_HOME$/Workspace/todolist" value="true" />
         <entry key="$USER_HOME$/Workspace/traefik" value="true" />
         <entry key="$USER_HOME$/Workspace/twttr" value="true" />
         <entry key="$USER_HOME$/Workspace/twttr-backend" value="true" />
+        <entry key="$USER_HOME$/Workspace/vault-lambda-extension" value="true" />
+        <entry key="$USER_HOME$/Workspace/veracached" value="true" />
         <entry key="$USER_HOME$/Workspace/weather-sensor-api" value="true" />
+        <entry key="$USER_HOME$/Workspace/weaviate" value="true" />
       </map>
     </option>
   </component>

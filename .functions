@@ -83,3 +83,4 @@ typora() {
         open -a typora $1
     fi
 }
+

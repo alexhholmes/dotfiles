@@ -4,6 +4,7 @@
     <languageAllowList>
       <map>
         <entry key="*" value="true" />
+        <entry key="go" value="false" />
       </map>
     </languageAllowList>
   </component>

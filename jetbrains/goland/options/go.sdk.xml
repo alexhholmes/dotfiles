@@ -3,6 +3,7 @@
     <sdk-url>
       <set>
         <option value="file://$USER_HOME$/.go/go1.23.0" />
+        <option value="file://$USER_HOME$/.go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.5.darwin-arm64" />
         <option value="file:///usr/local/go" />
       </set>
     </sdk-url>

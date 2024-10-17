@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateAIAssistantToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta 3" />
+  </action>
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
@@ -35,7 +38,7 @@
   <action id="ExpandLiveTemplateByTab" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
-  <action id="InsertInlineCompletionAction" />
+  <action id="InsertLiveTemplate" />
   <action id="MethodHierarchy.BaseOnThisMethod">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
@@ -47,16 +50,19 @@
   </action>
   <action id="NextParameter" />
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="PinActiveEditorTab">
     <keyboard-shortcut first-keystroke="meta decimal" />
   </action>
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="SearchEverywhere.CompleteCommand" />
   <action id="SearchEverywhere.NextTab" />

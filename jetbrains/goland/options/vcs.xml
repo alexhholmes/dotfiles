@@ -9,5 +9,6 @@
         <option value="GitHub.CommitStatus" />
       </list>
     </option>
+    <option name="SHOW_TAG_NAMES" value="true" />
   </component>
 </application>

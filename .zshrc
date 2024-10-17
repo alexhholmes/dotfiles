@@ -68,7 +68,7 @@ HYPHEN_INSENSITIVE="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git brew rust extract httpie docker docker-compose)
+plugins=(git brew extract httpie docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,3 +84,4 @@ fi
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(gh copilot alias -- zsh)"
+
