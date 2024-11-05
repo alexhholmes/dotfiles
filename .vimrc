@@ -1,13 +1,8 @@
-" ***********************
-" Vim-Plug Plugin Manager
-" ***********************
-
 call plug#begin('~/.vim/plugged')
 
+Plug 'fatih/vim-go'
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-obsession'
 Plug 'tomasiser/vim-code-dark'
 
 Plug 'itchyny/lightline.vim'
@@ -38,9 +33,9 @@ map <C-n> :NERDTreeToggle<CR>
 
 call plug#end()
 
-" ******************
-" Vim Configurations
-" ******************
+"
+"
+"
 
 set encoding=utf-8
 
