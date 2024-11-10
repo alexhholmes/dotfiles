@@ -22,6 +22,9 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 export PATH="/Applications/Sublime Merge.app/Contents/SharedSupport/bin:$PATH"
 
+# Misc
+export PKG_CONFIG_PATH="/opt/homebrew/opt/icu4c/lib/pkgconfig"
+
 # oh-my-zsh config
 export ZSH="/Users/alex/.oh-my-zsh"
 ZSH_THEME="cleanish"
@@ -84,4 +87,7 @@ fi
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(gh copilot alias -- zsh)"
+
+# Ocaml
+[[ ! -r '/Users/alex/.opam/opam-init/init.zsh' ]] || source '/Users/alex/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 

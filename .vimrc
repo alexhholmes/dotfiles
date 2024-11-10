@@ -74,3 +74,6 @@ set hidden
 " System clipboard
 set clipboard=unnamed
 
+" Ocaml
+set rtp^="/Users/alex/.opam/default/share/ocp-indent/vim"
+
