@@ -4,14 +4,14 @@
 	abstract = {Bigtable is a distributed storage system for managing structured data that is designed to scale to a very large size: petabytes of data across thousands of commodity servers. Many projects at Google store data in Bigtable, including web indexing, Google Earth, and Google Finance. These applications place very different demands on Bigtable, both in terms of data size (from {URLs} to web pages to satellite imagery) and latency requirements (from backend bulk processing to real-time data serving). Despite these varied demands, Bigtable has successfully provided a flexible, high-performance solution for all of these Google products. In this paper we describe the simple data model provided by Bigtable, which gives clients dynamic control over data layout and format, and we describe the design and implementation of Bigtable.},
 	author = {Chang, Fay and Dean, Jeffrey and Ghemawat, Sanjay and Hsieh, Wilson C and Wallach, Deborah A and Burrows, Mike and Chandra, Tushar and Fikes, Andrew and Gruber, Robert E},
 	keywords = {database, distributed, google, storage},
-	file = {PDF:/Users/alex/Zotero/storage/EZA32TLS/bigtable-osdi06.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/EZA32TLS/bigtable-osdi06.pdf:application/pdf},
 }
 
 @report{lakshman_cassandra-decentralized_nodate,
 	title = {Cassandra-A Decentralized Structured Storage System},
 	abstract = {Cassandra is a distributed storage system for managing very large amounts of structured data spread out across many commodity servers, while providing highly available service with no single point of failure. Cassandra aims to run on top of an infrastructure of hundreds of nodes (possibly spread across different data centers). At this scale, small and large components fail continuously. The way Cassandra manages the persistent state in the face of these failures drives the reliability and scalability of the software systems relying on this service. While in many ways Cassandra resembles a database and shares many design and implementation strategies therewith, Cassandra does not support a full rela-tional data model; instead, it provides clients with a simple data model that supports dynamic control over data layout and format. Cassandra system was designed to run on cheap commodity hardware and handle high write through-put while not sacrificing read efficiency.},
 	author = {Lakshman, Avinash and Prashant, Facebook and Facebook, Malik},
-	file = {PDF:/Users/alex/Zotero/storage/799Y9YWJ/cassandra.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/799Y9YWJ/cassandra.pdf:application/pdf},
 }
 
 @report{jiang_hadoop_nodate,
@@ -19,14 +19,14 @@
 	abstract = {In hadoop, the job scheduling is an independent module, users can design their own job scheduler based on their actual application requirements, thereby meet their specific business needs. Currently, hadoop has three schedulers: {FIFO}, computing capacity scheduling and fair scheduling policy, all of them are take task allocation strategy that considerate data locality simply. They neither support data locality well nor fully apply to all cases of jobs scheduling. In this paper, we took the concept of resources-prefetch into consideration, and proposed a job scheduling algorithm based on data locality. By estimate the remaining time to complete a task, compared with the time to transfer a resources block, to preselect candidate nodes for task allocation. Then we preselect a non-local map tasks from the unfinished job queue as resources-prefetch tasks. Getting information of resources blocks of preselected map task, select a nearest resources blocks from the candidate node and transferred to local through network. Thus we would ensure data locality good enough. Eventually, we design a experiment and proved resources-prefetch method can guarantee good job data locality and reduce the time to complete the job to a certain extent.},
 	author = {Jiang, Bo and Wu, Jiaying and Shi, Xiuyu and Huang, Ruhuan},
 	keywords = {data locality, Hadoop, resources-prefetch, scheduling},
-	file = {PDF:/Users/alex/Zotero/storage/UUSYBST2/hadoop scheduling base on data locality.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/UUSYBST2/hadoop scheduling base on data locality.pdf:application/pdf},
 }
 
 @report{dean_mapreduce_nodate,
 	title = {{MapReduce}: Simplified Data Processing on Large Clusters},
 	abstract = {{MapReduce} is a programming model and an associated implementation for processing and generating large data sets. Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key. Many real world tasks are expressible in this model, as shown in the paper. Programs written in this functional style are automatically parallelized and executed on a large cluster of commodity machines. The run-time system takes care of the details of partitioning the input data, scheduling the pro-gram's execution across a set of machines, handling machine failures, and managing the required inter-machine communication. This allows programmers without any experience with parallel and distributed systems to easily utilize the resources of a large distributed system. Our implementation of {MapReduce} runs on a large cluster of commodity machines and is highly scalable: a typical {MapReduce} computation processes many ter-abytes of data on thousands of machines. Programmers find the system easy to use: hundreds of {MapReduce} programs have been implemented and upwards of one thousand {MapReduce} jobs are executed on Google's clusters every day.},
 	author = {Dean, Jeffrey and Ghemawat, Sanjay},
-	file = {PDF:/Users/alex/Zotero/storage/BPDCNQZ3/mapreduce-osdi04.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/BPDCNQZ3/mapreduce-osdi04.pdf:application/pdf},
 }
 
 @book{acm_special_interest_group_in_operating_systems_sosp_2007,
@@ -37,7 +37,7 @@
 	publisher = {Association for Computing Machinery},
 	author = {{ACM Special Interest Group in Operating Systems.}},
 	date = {2007},
-	file = {PDF:/Users/alex/Zotero/storage/A52G5E7J/amazon-dynamo-sosp2007.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/A52G5E7J/amazon-dynamo-sosp2007.pdf:application/pdf},
 }
 
 @inproceedings{verma_large-scale_2015,
@@ -49,7 +49,7 @@
 	publisher = {Association for Computing Machinery},
 	author = {Verma, Abhishek and Pedrosa, Luis and Korupolu, Madhukar and Oppenheimer, David and Tune, Eric and Wilkes, John},
 	date = {2015-04-17},
-	file = {PDF:/Users/alex/Zotero/storage/N8LYFLIA/google borg.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/N8LYFLIA/google borg.pdf:application/pdf},
 }
 
 @report{nishtala_scaling_nodate,
@@ -57,7 +57,7 @@
 	abstract = {Memcached is a well known, simple, in-memory caching solution. This paper describes how Facebook leverages memcached as a building block to construct and scale a distributed key-value store that supports the world's largest social network. Our system handles billions of requests per second and holds trillions of items to deliver a rich experience for over a billion users around the world.},
 	pages = {385},
 	author = {Nishtala, Rajesh and Fugal, Hans and Grimm, Steven and Kwiatkowski, Marc and Lee, Herman and Li, Harry C and Mcelroy, Ryan and Paleczny, Mike and Peek, Daniel and Saab, Paul and Stafford, David and Tung, Tony and Venkataramani, Venkateshwaran},
-	file = {PDF:/Users/alex/Zotero/storage/U9FZRLQL/scaling memcached.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/U9FZRLQL/scaling memcached.pdf:application/pdf},
 }
 
 @report{sichel_price_1913,
@@ -66,7 +66,7 @@
 	author = {Sichel, Daniel E},
 	date = {1913},
 	keywords = {and Entrepreneurship, Development of the American Economy, Innovation, Productivity},
-	file = {PDF:/Users/alex/Zotero/storage/L77Q7KYH/The Price of Nailes Since 1695.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/L77Q7KYH/The Price of Nailes Since 1695.pdf:application/pdf},
 }
 
 @report{lang_security_nodate,
@@ -74,7 +74,7 @@
 	url = {https://github.com/google/u2f-},
 	abstract = {"Security Keys" are second-factor devices that protect users against phishing and man-in-the-middle attacks. Users carry a single device and can self-register it with any online service that supports the protocol. The devices are simple to implement and deploy, simple to use, privacy preserving, and secure against strong attackers. We have shipped support for Security Keys in the Chrome web browser and in Google's online services. We show that Security Keys lead to both an increased level of security and user satisfaction by analyzing a two year deployment which began within Google and has extended to our consumer-facing web applications. The Security Key design has been standardized by the {FIDO} Alliance, an organization with more than 250 member companies spanning the industry. Currently, Security Keys have been deployed by Google, Dropbox, and {GitHub}. An updated and extended tech report is available at https://github.com/google/u2f-ref-code/docs/{SecurityKeys}\_TechReport.pdf.},
 	author = {Lang, Juan and Czeskis, Alexei and Balfanz, Dirk and Schilder, Marius and Srinivas, Sampath},
-	file = {PDF:/Users/alex/Zotero/storage/4YZLHXBD/security keys.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/4YZLHXBD/security keys.pdf:application/pdf},
 }
 
 @book{sigchi_group__us_um3i14_nodate,
@@ -83,7 +83,7 @@
 	abstract = {"Co-located with: {ICMI} 2014."},
 	pagetotal = {52},
 	author = {{SIGCHI (Group : U.S.)} and {Association for Computing Machinery} and {ACM Digital Library.} and ICMI (Conference) (16th : 2014 : Istanbul, Turkey)},
-	file = {PDF:/Users/alex/Zotero/storage/TEJXDSWA/Kafka.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/TEJXDSWA/Kafka.pdf:application/pdf},
 }
 
 @book{usenix_association_proceedings_2004,
@@ -93,7 +93,7 @@
 	publisher = {{USENIX} Association},
 	author = {{USENIX Association.}},
 	date = {2004},
-	file = {PDF:/Users/alex/Zotero/storage/DF2X7M55/wormhole.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/DF2X7M55/wormhole.pdf:application/pdf},
 }
 
 @inproceedings{park_3sigma_2018,
@@ -107,7 +107,7 @@
 	author = {Park, Jun Woo and Tumanov, Alexey and Jiang, Angela and Kozuch, Michael A. and Ganger, Gregory R.},
 	date = {2018-04-23},
 	keywords = {distributed, cluster scheduling},
-	file = {PDF:/Users/alex/Zotero/storage/EF8AUCDE/3sigma.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/EF8AUCDE/3sigma.pdf:application/pdf},
 }
 
 @book{amvrosiadis_diversity_nodate,
@@ -116,7 +116,7 @@
 	url = {https://www.usenix.org/conference/atc18/presentation/amvrosiadis},
 	abstract = {Six years ago, Google released an invaluable set of scheduler logs which has already been used in more than 450 publications. We find that the scarcity of other data sources, however, is leading researchers to overfit their work to Google's dataset characteristics. We demonstrate this overfitting by introducing four new traces from two private and two High Performance Computing ({HPC}) clusters. Our analysis shows that the private cluster workloads, consisting of data analytics jobs expected to be more closely related to the Google workload, display more similarity to the {HPC} cluster workloads. This observation suggests that additional traces should be considered when evaluating the generality of new research. To aid the community in moving forward, we release the four analyzed traces, including: the longest publicly available trace spanning all 61 months of an {HPC} clus-ter's lifetime and a trace from a 300,000-core {HPC} cluster , the largest cluster with a publicly available trace. We present an analysis of the private and {HPC} cluster traces that spans job characteristics, workload heterogeneity, resource utilization, and failure rates. We contrast our findings with the Google trace characteristics and identify affected work in the literature. Finally, we demonstrate the importance of dataset plurality and diversity by evaluating the performance of a job runtime predictor using all four of our traces and the Google trace.},
 	author = {Amvrosiadis, George and Woo Park, Jun and Ganger, Gregory R and Gibson, Garth A and Baseman, Elisabeth and {DeBardeleben}, Nathan},
-	file = {PDF:/Users/alex/Zotero/storage/89DM5FBY/diversity of cluster workloads.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/89DM5FBY/diversity of cluster workloads.pdf:application/pdf},
 }
 
 @report{ghemawat_google_2003,
@@ -125,7 +125,7 @@
 	author = {Ghemawat, Sanjay and Gobioff, Howard and Leung Google, Shun-Tak},
 	date = {2003},
 	keywords = {clustered storage, D [4]: 3-Distributed file systems General Terms Design, data storage, measurement Keywords Fault tolerance, performance, reliability, scalability},
-	file = {PDF:/Users/alex/Zotero/storage/9NIVRSX4/gfs-sosp2003.pdf:application/pdf;PDF:/Users/alex/Zotero/storage/K2XSIEH2/gfs.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/9NIVRSX4/gfs-sosp2003.pdf:application/pdf;PDF:/Users/alex/Documents/Zotoro/storage/K2XSIEH2/gfs.pdf:application/pdf},
 }
 
 @book{usenix_association_proceedings_2005,
@@ -135,7 +135,7 @@
 	publisher = {{USENIX} Association},
 	author = {{USENIX Association.}},
 	date = {2005},
-	file = {PDF:/Users/alex/Zotero/storage/DBE75FU3/dont cry over spilled records.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/DBE75FU3/dont cry over spilled records.pdf:application/pdf},
 }
 
 @inproceedings{delgado_kairos_2018,
@@ -149,7 +149,7 @@
 	author = {Delgado, Pamela and Didona, Diego and Dinu, Florin and Zwaenepoel, Willy},
 	date = {2018-10-11},
 	keywords = {Cloud computing, Data center, Scheduling},
-	file = {PDF:/Users/alex/Zotero/storage/4TV424UN/Kairos.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/4TV424UN/Kairos.pdf:application/pdf},
 }
 
 @book{acm_special_interest_group_in_operating_systems_eurosys12_nodate,
@@ -158,7 +158,7 @@
 	abstract = {"{ACM} Order Number: 534123"--Copyright page.},
 	pagetotal = {379},
 	author = {{ACM Special Interest Group in Operating Systems} and {VMware} and {Universität Bern} and {Université de Neuchâtel} and {USENIX Association.} and {Association for Computing Machinery} and EuroSys (Conference), organizer.},
-	file = {PDF:/Users/alex/Zotero/storage/JB2Z4JVN/Jockey.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/JB2Z4JVN/Jockey.pdf:application/pdf},
 }
 
 @book{usenix_association_papers_2005,
@@ -168,7 +168,7 @@
 	publisher = {{USENIX} Association},
 	author = {{USENIX Association.} and {ACM SIGMOBILE.} and {ACM Special Interest Group in Operating Systems.} and {ACM Digital Library.}},
 	date = {2005},
-	file = {PDF:/Users/alex/Zotero/storage/PJYPGLIM/osdi16-grandl-altruistic.pdf:application/pdf;PDF:/Users/alex/Zotero/storage/TKVJ62NG/osdi16-jyothi.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/PJYPGLIM/osdi16-grandl-altruistic.pdf:application/pdf;PDF:/Users/alex/Documents/Zotoro/storage/TKVJ62NG/osdi16-jyothi.pdf:application/pdf},
 }
 
 @book{jajoo_this_nodate,
@@ -177,7 +177,7 @@
 	url = {https://www.usenix.org/conference/nsdi22/presentation/jajoo},
 	abstract = {The ability to accurately estimate job runtime properties allows a scheduler to eeectively schedule jobs. State-of-the-art online cluster job schedulers use history-based learning, which uses past job execution information to estimate the runtime properties of newly arrived jobs. However, with fast-paced development in cluster technology (in both hardware and software) and changing user inputs, job runtime properties can change over time, which lead to inaccurate predictions. In this paper, we explore the potential and limitation of real-time learning of job runtime properties, by proactively sampling and scheduling a small fraction of the tasks of each job. Such a task-sampling-based approach exploits the similarity among runtime properties of the tasks of the same job and is inherently immune to changing job behavior. Our analytical and experimental analysis of 3 production traces with diierent skew and job distribution shows that learning in space can be substantially more accurate. Our simulation and testbed evaluation on Azure of the two learning approaches anchored in a generic job scheduler using 3 production cluster job traces shows that despite its online overhead, learning in space reduces the average Job Completion Time ({JCT}) by 1.28×, 1.56×, and 1.32× compared to the prior-art history-based predictor. Finally, we show how sampling-based learning can be extended to schedule {DAG} jobs and achieve similar speedups over the prior-art history-based predictor.},
 	author = {Jajoo, Akshay and Charlie Hu, Y and Lin, Xiaojun and Deng, Nan},
-	file = {PDF:/Users/alex/Zotero/storage/3RMBHCIH/nsdi22-paper-jajoo_5.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/3RMBHCIH/nsdi22-paper-jajoo_5.pdf:application/pdf},
 }
 
 @article{jalaparti_network-aware_2015,
@@ -193,7 +193,7 @@
 	date = {2015-08-17},
 	note = {Publisher: Association for Computing Machinery},
 	keywords = {Cluster schedulers, Cross-layer optimization, Data-intensive applications, Joint data and compute placement},
-	file = {PDF:/Users/alex/Zotero/storage/N3KRBDTJ/p407.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/N3KRBDTJ/p407.pdf:application/pdf},
 }
 
 @inproceedings{chung_stratus_2018,
@@ -207,7 +207,7 @@
 	author = {Chung, Andrew and Park, Jun Woo and Ganger, Gregory R.},
 	date = {2018-10-11},
 	keywords = {Cloud computing, Cluster scheduling, Transient server},
-	file = {PDF:/Users/alex/Zotero/storage/CYWML87C/p121-Chung.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/CYWML87C/p121-Chung.pdf:application/pdf},
 }
 
 @inproceedings{grandl_multi-resource_2015,
@@ -224,14 +224,14 @@
 	note = {Issue: 4
 {ISSN}: 19435819},
 	keywords = {Cluster schedulers, Completion time, Fairness, Makespan, Multi-dimensional packing},
-	file = {PDF:/Users/alex/Zotero/storage/PVFCSGDC/multi-resource packing for cluster schedulers.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/PVFCSGDC/multi-resource packing for cluster schedulers.pdf:application/pdf},
 }
 
 @report{corbett_spanner_nodate,
 	title = {Spanner: Google's Globally-Distributed Database},
 	abstract = {Spanner is Google's scalable, multi-version, globally-distributed, and synchronously-replicated database. It is the first system to distribute data at global scale and support externally-consistent distributed transactions. This paper describes how Spanner is structured, its feature set, the rationale underlying various design decisions, and a novel time {API} that exposes clock uncertainty. This {API} and its implementation are critical to supporting external consistency and a variety of powerful features: non-blocking reads in the past, lock-free read-only transactions , and atomic schema changes, across all of Spanner.},
 	author = {Corbett, James C and Dean, Jeffrey and Epstein, Michael and Fikes, Andrew and Frost, Christopher and Furman, J J and Ghemawat, Sanjay and Gubarev, Andrey and Heiser, Christopher and Hochschild, Peter and Hsieh, Wilson and Kanthak, Sebastian and Kogan, Eugene and Li, Hongyi and Lloyd, Alexander and Melnik, Sergey and Mwaura, David and Nagle, David and Quinlan, Sean and Rao, Rajesh and Rolig, Lindsay and Saito, Yasushi and Szymaniak, Michal and Taylor, Christopher and Wang, Ruth and Woodford, Dale},
-	file = {PDF:/Users/alex/Zotero/storage/K9DZU795/spanner-osdi2012.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/K9DZU795/spanner-osdi2012.pdf:application/pdf},
 }
 
 @book{imperial_college_eurosys_nodate,
@@ -239,7 +239,7 @@
 	isbn = {978-1-4503-4240-7},
 	pagetotal = {605},
 	author = {Imperial College, London and {Association for Computing Machinery} and {ACM Special Interest Group in Operating Systems.}},
-	file = {PDF:/Users/alex/Zotero/storage/7MLU8MRB/tetrisched-tumanov-eurosys16.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/7MLU8MRB/tetrisched-tumanov-eurosys16.pdf:application/pdf},
 }
 
 @inproceedings{isard_dryad_2007,
@@ -340,7 +340,7 @@
 	date = {2008},
 	note = {Publisher: Institute of Electronics, Information and Communication, Engineers, {IEICE}},
 	keywords = {Cache architecture, {DRAM}, Reliability, {SIMM}, Single event upset, Task scheduling},
-	file = {PDF:/Users/alex/Zotero/storage/DNE6THIJ/Task_Scheduling_for_Reliable_Cache_Architectures_o.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/DNE6THIJ/Task_Scheduling_for_Reliable_Cache_Architectures_o.pdf:application/pdf},
 }
 
 @article{berg_towards_2017,
@@ -356,14 +356,14 @@
 	eprinttype = {arxiv},
 	eprint = {1707.07097},
 	note = {Publisher: Association for Computing Machinery ({ACM})},
-	file = {PDF:/Users/alex/Zotero/storage/RPM3XZVE/Sigmetrics18a.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/RPM3XZVE/Sigmetrics18a.pdf:application/pdf},
 }
 
 @report{ongaro_search_nodate,
 	title = {In Search of an Understandable Consensus Algorithm (Extended Version)},
 	abstract = {Raft is a consensus algorithm for managing a replicated log. It produces a result equivalent to (multi-)Paxos, and it is as efficient as Paxos, but its structure is different from Paxos; this makes Raft more understandable than Paxos and also provides a better foundation for building practical systems. In order to enhance understandabil-ity, Raft separates the key elements of consensus, such as leader election, log replication, and safety, and it enforces a stronger degree of coherency to reduce the number of states that must be considered. Results from a user study demonstrate that Raft is easier for students to learn than Paxos. Raft also includes a new mechanism for changing the cluster membership, which uses overlapping majorities to guarantee safety.},
 	author = {Ongaro, Diego and Ousterhout, John},
-	file = {PDF:/Users/alex/Zotero/storage/PPFWQG95/raft.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/PPFWQG95/raft.pdf:application/pdf},
 }
 
 @report{ongaro_consensus_2014,
@@ -371,7 +371,7 @@
 	url = {http://purl.stanford.edu/qr033xr6097},
 	author = {Ongaro, Diego},
 	date = {2014},
-	file = {PDF:/Users/alex/Zotero/storage/QD9RE57Y/concensus_bridging theory and practice.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/QD9RE57Y/concensus_bridging theory and practice.pdf:application/pdf},
 }
 
 @report{lamport_byzantine_1982,
@@ -380,7 +380,7 @@
 	author = {Lamport, Leslie and Shostak, Robert and Pease, Marshall},
 	date = {1982},
 	keywords = {★, C24 [Computer-Communication Networks]: Distributed Systems-network operating systems, D44 [Operating Systems]: Communications Management-network communication, D45 [Operating Systems]: Reliability-fault tolerance General Terms: Algorithms, Reliability Additional Key Words and Phrases: Interactive consistency /},
-	file = {PDF:/Users/alex/Zotero/storage/SPWKM9ZS/byz.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/SPWKM9ZS/byz.pdf:application/pdf},
 }
 
 @book{shasha_proceedings_2008,
@@ -391,12 +391,12 @@
 	publisher = {Association for Computing Machinery},
 	author = {Shasha, Dennis. and Wang, Jason T. L. and {Association for Computing Machinery.} and {Association for Computing Machinery. Special Interest Group on Management of Data.} and {ACM Digital Library.}},
 	date = {2008},
-	file = {PDF:/Users/alex/Zotero/storage/4575ZD2C/fekete-sigmod2008.pdf:application/pdf;PDF:/Users/alex/Zotero/storage/JX8Q39KI/p539-moerkotte.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/4575ZD2C/fekete-sigmod2008.pdf:application/pdf;PDF:/Users/alex/Documents/Zotoro/storage/JX8Q39KI/p539-moerkotte.pdf:application/pdf},
 }
 
 @article{noauthor_sagas_nodate,
 	title = {sagas},
-	file = {PDF:/Users/alex/Zotero/storage/9TD43RIS/sagas.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/9TD43RIS/sagas.pdf:application/pdf},
 }
 
 @article{duran-nebreda_dilution_2022,
@@ -410,7 +410,7 @@
 	journaltitle = {Humanities and Social Sciences Communications},
 	author = {Duran-Nebreda, Salva and O’Brien, Michael J. and Bentley, R. Alexander and Valverde, Sergi},
 	date = {2022-10-12},
-	file = {PDF:/Users/alex/Zotero/storage/PJ8YHS58/s41599-022-01380-5.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/PJ8YHS58/s41599-022-01380-5.pdf:application/pdf},
 }
 
 @report{wolfson_geometric_1997,
@@ -418,7 +418,7 @@
 	abstract = {O bject recognition is the ultimate goal of most computer vision research. An ideal object recognition system should be able to recognize objects in an image that are partially occluded or have undergone geometric transformations. Most systems will use a large database of models and apply model-based recognition. Say you want to give a robot the ability to recognize all objects and tools on a factory floor. If there are only a few hundred objects, you could design a database of these objects and store it in the robot's memory. When the robot receives a sensory image of its environment from a video camera or a range sensor, it should be able to quickly retrieve from memory objects that appear in the image. Although quite natural in human vision, this task in a robot requires the solution of several complicated problems: 1. The objects in the acquired scene appear rotated and translated relative to their initial database position, and the whole scene undergoes a sensor-dependent transformation, such as the projective transformation of a video camera. 2. The objects in the scene may partially occlude each other, and the scene may include additional objects not included in the database. 3. It is computationally inefficient to retrieve each individual object from the database and compare it against the observed scene in search of a match. For example, if the scene contains only round objects, it does not make sense to retrieve rectangular objects to match against it. We need a method that allows direct access to only the relevant information-such as an indexing-based approach. For example, if you are looking for words in long strings of text, you could use a table accessed by indices that are functions of individual words. The table contains the strings where the word appears and the location of the word in the strings. It would be easy then to locate a word by retrieving all of its appearances from the table. This kind of approach was originally proposed for geometric object recognition, making use of indices based on local geometric features that remained invariant to the object transformation. The features were local to handle partial occlusion, and their indexing function was invariant to the relevant transformation, because unlike words in text, geometric features have both location and orientation. For over a decade now, indexing-based approaches have been gaining ground as the method of choice for building working recognition systems that can Geometric hashing, a technique originally developed in computer vision for matching geometric features against a database of such features, finds use in a number of other areas. Matching is possible even when the recognizable database objects have undergone transformations or when only partial information is present. The technique is highly efficient and of low polynomial complexity. ♦ .},
 	author = {Wolfson, Haim J},
 	date = {1997},
-	file = {PDF:/Users/alex/Zotero/storage/XW3VIKUM/paper_geohash.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/XW3VIKUM/paper_geohash.pdf:application/pdf},
 }
 
 @book{acm_special_interest_group_on_programming_languages_flumejava_2010,
@@ -428,7 +428,7 @@
 	publisher = {Association for Computing Machinery},
 	author = {{ACM Special Interest Group on Programming Languages.} and {ACM Sigsoft.} and {Association for Computing Machinery.}},
 	date = {2010},
-	file = {PDF:/Users/alex/Zotero/storage/K7EFKB2C/flume.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/K7EFKB2C/flume.pdf:application/pdf},
 }
 
 @article{zhang_succinct_2019,
@@ -443,7 +443,7 @@
 	author = {Zhang, Huanchen and Lim, Hyeontaek and Leise, Viktor and Andersen, David G. and Kaminsky, Michael and Keeton, Kimberly and Pavlo, Andrew},
 	date = {2019-03-01},
 	note = {Publisher: Association for Computing Machinery},
-	file = {PDF:/Users/alex/Zotero/storage/K3KEE56P/succint_range_filters.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/K3KEE56P/succint_range_filters.pdf:application/pdf},
 }
 
 @report{michael_simple_nodate,
@@ -451,7 +451,7 @@
 	abstract = {Drawing ideas from previous authors, we present a new non-blocking concurrent queue algorithm and a new two-lock queue algorithm in which one enqueue and one de-queue can proceed concurrently. Both algorithms are simple , fast, and practical; we were surprised not to find them in the literature. Experiments on a 12-node {SGI} Challenge multiprocessor indicate that the new non-blocking queue consistently outperforms the best known alternatives; it is the clear algorithm of choice for machines that provide a universal atomic primitive (e.g. compare and swap or load linked/store conditional). The two-lock concurrent queue outperforms a single lock when several processes are competing simultaneously for access; it appears to be the algorithm of choice for busy queues on machines with non-universal atomic primitives (e.g. test and set). Since much of the motivation for non-blocking algorithms is rooted in their immunity to large, unpredictable delays in process execution, we report experimental results both for systems with dedicated processors and for systems with several processes multiprogrammed on each processor.},
 	author = {Michael, Maged M and Scott, Michael L},
 	keywords = {compare and swap, concurrent queue, lock-free, multiprogramming, non-blocking},
-	file = {PDF:/Users/alex/Zotero/storage/YZDL6DJ7/1996_PODC_queues.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/YZDL6DJ7/1996_PODC_queues.pdf:application/pdf},
 }
 
 @report{moerkotte_small_nodate,
@@ -459,14 +459,14 @@
 	url = {http://www.tpc.org},
 	abstract = {Small Materialized Aggregates ({SMAs} for short) are considered a highly flexible and versatile alternative for materialized data cubes. The basic idea is to compute many aggregate values for small to medium-sized buckets of tu-ples. These aggregates are then used to speed up query processing. We present the general idea and present an application of {SMAs} to the {TPC}-D benchmark. We show that exploiting {SMAs} for {TPC}-D Query 1 results in a speed up of two orders of magnitude. Then, we investigate the problem of query processing in the presence of {SMAs}. Last, we briefly discuss some further tuning possibilities for {SMAs}.},
 	author = {Moerkotte, Guido},
-	file = {PDF:/Users/alex/Zotero/storage/76MUASDH/small_materialized_aggregates.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/76MUASDH/small_materialized_aggregates.pdf:application/pdf},
 }
 
 @report{crotty_are_nodate,
 	title = {Are You Sure You Want to Use {MMAP} in Your Database Management System?; Are You Sure You Want to Use {MMAP} in Your Database Management System?},
 	abstract = {Memory-mapped (mmap) file I/O is an {OS}-provided feature that maps the contents of a file on secondary storage into a program's address space. The program then accesses pages via pointers as if the file resided entirely in memory. The {OS} transparently loads pages only when the program references them and automatically evicts pages if memory fills up. mmap's perceived ease of use has seduced database management system ({DBMS}) developers for decades as a viable alternative to implementing a buffer pool. There are, however, severe correct-ness and performance issues with mmap that are not immediately apparent. Such problems make it difficult, if not impossible, to use mmap correctly and efficiently in a modern {DBMS}. In fact, several popular {DBMSs} initially used mmap to support larger-than-memory databases but soon encountered these hidden perils, forcing them to switch to managing file I/O themselves after significant engineering costs. In this way, mmap and {DBMSs} are like coffee and spicy food: an unfortunate combination that becomes obvious after the fact. Since developers keep trying to use mmap in new {DBMSs}, we wrote this paper to provide a warning to others that mmap is not a suitable replacement for a traditional buffer pool. We discuss the main shortcomings of mmap in detail, and our experimental analysis demonstrates clear performance limitations. Based on these findings , we conclude with a prescription for when {DBMS} developers might consider using mmap for file I/O.},
 	author = {Crotty, Andrew and Leis, Viktor and Pavlo, Andrew},
-	file = {PDF:/Users/alex/Zotero/storage/4MYVAKLH/cidr2022-p13-crotty.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/4MYVAKLH/cidr2022-p13-crotty.pdf:application/pdf},
 }
 
 @report{sears_blob_2006,
@@ -474,7 +474,8 @@
 	abstract = {Application designers must decide whether to store large objects ({BLOBs}) in a filesystem or in a database. Generally, this decision is based on factors such as application simplicity or manageability. Often, system performance affects these factors. Folklore tells us that databases efficiently handle large numbers of small objects, while filesystems are more efficient for large objects. Where is the break-even point? When is accessing a {BLOB} stored as a file cheaper than accessing a {BLOB} stored as a database record? Of course, this depends on the particular filesystem, database system, and workload in question. This study shows that when comparing the {NTFS} file system and {SQL} Server 2005 database system on a create, \{read, replace\}* delete workload, {BLOBs} smaller than 256KB are more efficiently handled by {SQL} Server, while {NTFS} is more efficient {BLOBS} larger than 1MB. Of course, this break-even point will vary among different database systems, filesystems, and workloads. By measuring the performance of a storage server workload typical of web applications which use get/put protocols such as {WebDAV} [{WebDAV}], we found that the break-even point depends on many factors. However, our experiments suggest that storage age, the ratio of bytes in deleted or replaced objects to bytes in live objects, is dominant. As storage age increases, fragmentation tends to increase. The filesystem we study has better fragmentation control than the database we used, suggesting the database system would benefit from incorporating ideas from filesystem architecture. Conversely, filesystem performance may be improved by using database techniques to handle small files. Surprisingly, for these studies, when average object size is held constant, the distribution of object sizes did not significantly affect performance. We also found that, in addition to low percentage free space, a low ratio of free space to average object size leads to fragmentation and performance degradation.},
 	author = {Sears, Russell and Van Ingen, Catharine and Gray, Jim},
 	date = {2006},
-	file = {PDF:/Users/alex/Zotero/storage/T7H2BG8R/tr-2006-45.pdf:application/pdf},
+	keywords = {Databases, {BLOB}, Filesystems},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/T7H2BG8R/tr-2006-45.pdf:application/pdf},
 }
 
 @inproceedings{raju_pebblesdb_2017,
@@ -488,7 +489,7 @@
 	author = {Raju, Pandian and Chidambaram, Vijay and Kadekodi, Rohan and Abraham, Ittai},
 	date = {2017-10-14},
 	keywords = {Key-value stores, Log-structured merge trees, Write-optimized data structures},
-	file = {PDF:/Users/alex/Zotero/storage/M6VFXNSN/sosp17-pebblesdb.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/M6VFXNSN/sosp17-pebblesdb.pdf:application/pdf},
 }
 
 @article{dong_rocksdb_2021,
@@ -503,7 +504,7 @@
 	author = {Dong, Siying and Kryczka, Andrew and Jin, Yanqin and Stumm, Michael},
 	date = {2021-11-30},
 	note = {Publisher: Association for Computing Machinery ({ACM})},
-	file = {PDF:/Users/alex/Zotero/storage/HBITCFE6/3483840.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/HBITCFE6/3483840.pdf:application/pdf},
 }
 
 @inproceedings{dayan_dostoevsky_2018,
@@ -517,7 +518,7 @@
 	author = {Dayan, Niv and Idreos, Stratos},
 	date = {2018-05-27},
 	note = {{ISSN}: 07308078},
-	file = {PDF:/Users/alex/Zotero/storage/3XDCL8N2/dostoevskykv.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/3XDCL8N2/dostoevskykv.pdf:application/pdf},
 }
 
 @article{dayan_optimal_2018,
@@ -532,7 +533,7 @@
 	date = {2018-12-01},
 	note = {Publisher: Association for Computing Machinery},
 	keywords = {Key-value stores, Bloom filters, {LSM}-tree, {NoSQL}, System design},
-	file = {PDF:/Users/alex/Zotero/storage/89H7I9YX/monkey-journal.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/89H7I9YX/monkey-journal.pdf:application/pdf},
 }
 
 @inproceedings{raasveldt_duckdb_2019,
@@ -546,21 +547,21 @@
 	author = {Raasveldt, Mark and Mühleisen, Hannes},
 	date = {2019-06-25},
 	note = {{ISSN}: 07308078},
-	file = {PDF:/Users/alex/Zotero/storage/357XE83Q/2019-duckdbdemo.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/357XE83Q/2019-duckdbdemo.pdf:application/pdf},
 }
 
 @report{armbrust_lakehouse_nodate,
 	title = {Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics},
 	abstract = {This paper argues that the data warehouse architecture as we know it today will wither in the coming years and be replaced by a new architectural pattern, the Lakehouse, which will (i) be based on open direct-access data formats, such as Apache Parquet, (ii) have first-class support for machine learning and data science, and (iii) offer state-of-the-art performance. Lakehouses can help address several major challenges with data warehouses, including data staleness, reliability, total cost of ownership, data lock-in, and limited use-case support. We discuss how the industry is already moving toward Lakehouses and how this shift may affect work in data management. We also report results from a Lakehouse system using Parquet that is competitive with popular cloud data warehouses on {TPC}-{DS}.},
 	author = {Armbrust, Michael and Ghodsi, Ali and Xin, Reynold and Zaharia, Matei and Berkeley, Uc},
-	file = {PDF:/Users/alex/Zotero/storage/3L2R3VM2/armbrust-cidr21.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/3L2R3VM2/armbrust-cidr21.pdf:application/pdf},
 }
 
 @report{babu_adaptive_nodate,
 	title = {Adaptive Query Processing in the Looking Glass},
 	abstract = {A great deal of work on adaptive query processing has been done over the last few years: Adaptive query processing has been used to detect and correct optimizer errors due to incorrect statistics or simplified cost metrics; it has been applied to long-running continuous queries over data streams whose characteristics vary over time; and routing-based adaptive query processing does away with the optimizer altogether. Despite this large body of interrelated work, no unifying comparison of adaptive query processing techniques or systems has been attempted; we tackle this problem. We identify three families of systems (plan-based, {CQ}-based, and routing-based), and compare them in detail with respect to the most important aspects of adaptive query processing: plan quality, statistics monitoring and re-optimization, plan migration, and scalability. We also suggest two new approaches to adap-tive query processing that address some of the shortcomings revealed by our in-depth analysis: (1) Proactive re-optimization, where the optimizer chooses query plans with the expectation of re-optimization; and (2) Plan logging, where op-timizer decisions under different conditions are logged over time, enabling plan reuse as well as analysis of relevant statistics and benefits of adap-tivity.},
 	author = {Babu, Shivnath and Bizarro, Pedro},
-	file = {PDF:/Users/alex/Zotero/storage/ZVZDF6QQ/babu-cidr2015.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/ZVZDF6QQ/babu-cidr2015.pdf:application/pdf},
 }
 
 @inproceedings{aberger_levelheaded_2018,
@@ -574,14 +575,14 @@
 	author = {Aberger, Christopher and Lamb, Andrew and Olukotun, Kunle and Re, Christopher},
 	date = {2018-10-24},
 	keywords = {business intelligence querying, join processing, linear algebra querying, Worst case optimal join},
-	file = {PDF:/Users/alex/Zotero/storage/Y8XTADR7/aberger-icde2018.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/Y8XTADR7/aberger-icde2018.pdf:application/pdf},
 }
 
 @report{balkesen_main-memory_nodate,
 	title = {Main-Memory Hash Joins on Multi-Core {CPUs}: Tuning to the Underlying Hardware},
 	abstract = {The architectural changes introduced with multi-core {CPUs} have triggered a redesign of main-memory join algorithms. In the last few years, two diverging views have appeared. One approach advocates careful tailoring of the algorithm to the architectural parameters (cache sizes, {TLB}, and memory bandwidth). The other approach argues that modern hardware is good enough at hiding cache and {TLB} miss latencies and, consequently, the careful tailoring can be omitted without sacrificing performance. In this paper we demonstrate through experimental analysis of different algorithms and architectures that hardware still matters. Join algorithms that are hardware conscious perform better than hardware-oblivious approaches. The analysis and comparisons in the paper show that many of the claims regarding the behavior of join algorithms that have appeared in literature are due to selection effects (relative table sizes, tuple sizes, the underlying architecture, using sorted data, etc.) and are not supported by experiments run under different parameters settings. Through the analysis, we shed light on how modern hardware affects the implementation of data operators and provide the fastest implementation of radix join to date, reaching close to 200 million tuples per second.},
 	author = {Balkesen, Cagri and {\textbackslash}\#2, Jens Teubner and Alonso, Gustavo and Tamer¨ozsu, M and Tamer¨ozsu, Tamer¨},
-	file = {PDF:/Users/alex/Zotero/storage/U3NPM69S/balkesen-icde2013.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/U3NPM69S/balkesen-icde2013.pdf:application/pdf},
 }
 
 @inproceedings{bandle_partition_2021,
@@ -595,7 +596,7 @@
 	date = {2021},
 	note = {{ISSN}: 07308078},
 	keywords = {join processing, in-memory databases, modern hardware, partitioning, performance evaluation},
-	file = {PDF:/Users/alex/Zotero/storage/KK3BVLUD/bandle-sigmod21.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/KK3BVLUD/bandle-sigmod21.pdf:application/pdf},
 }
 
 @report{binnig_end_2150,
@@ -603,14 +604,14 @@
 	abstract = {The next generation of high-performance networks with remote direct memory access ({RDMA}) capabilities requires a fundamental rethinking of the design of distributed in-memory {DBMSs}. These systems are commonly built under the assumption that the network is the primary bottleneck and should be avoided at all costs, but this assumption no longer holds. For instance, with {InfiniBand} {FDR} 4×, the bandwidth available to transfer data across the network is in the same ballpark as the bandwidth of one memory channel. Moreover, {RDMA} transfer latencies continue to rapidly improve as well. In this paper, we first argue that traditional distributed {DBMS} architectures cannot take full advantage of high-performance networks and suggest a new architecture to address this problem. Then, we discuss initial results from a prototype implementation of our proposed architecture for {OLTP} and {OLAP}, showing remarkable performance improvements over existing designs.},
 	author = {Binnig, Carsten and Crotty, Andrew and Galakatos, Alex and Kraska, Tim and Zamanian, Erfan},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/XRVF7ADF/binnig-vldb2016.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/XRVF7ADF/binnig-vldb2016.pdf:application/pdf},
 }
 
 @report{boncz_monetdbx100_nodate,
 	title = {{MonetDB}/X100: Hyper-Pipelining Query Execution},
 	abstract = {Database systems tend to achieve only low {IPC} (instructions-per-cycle) efficiency on modern {CPUs} in compute-intensive application areas like decision support, {OLAP} and multimedia retrieval. This paper starts with an in-depth investigation to the reason why this happens, focusing on the {TPC}-H benchmark. Our analysis of various relational systems and {MonetDB} leads us to a new set of guidelines for designing a query processor. The second part of the paper describes the architecture of our new X100 query engine for the {MonetDB} system that follows these guidelines. On the surface, it resembles a classical Volcano-style engine, but the crucial difference to base all execution on the concept of vector processing makes it highly {CPU} efficient. We evaluate the power of Mon-{etDB}/X100 on the 100GB version of {TPC}-H, showing its raw execution power to be between one and two orders of magnitude higher than previous technology.},
 	author = {Boncz, Peter and Zukowski, Marcin and Nes, Niels},
-	file = {PDF:/Users/alex/Zotero/storage/T2T9A2VF/boncz-cidr2005.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/T2T9A2VF/boncz-cidr2005.pdf:application/pdf},
 }
 
 @report{neumann_complete_2017,
@@ -619,20 +620,20 @@
 	pages = {31},
 	author = {Neumann, Thomas and Leis, Viktor and Kemper, Alfons},
 	date = {2017},
-	file = {PDF:/Users/alex/Zotero/storage/JQQSHE9J/hyperjoins-btw2017.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/JQQSHE9J/hyperjoins-btw2017.pdf:application/pdf},
 }
 
 @report{graefe_cascades_nodate,
 	title = {The Cascades Framework for Query Optimization},
 	abstract = {This paper describes a new extensible query optimization framework that resolves many of the shortcomings of the {EXODUS} and Volcano optimizer generators. In addition to extensibility, dynamic programming , and memorization based on and extended from the {EXODUS} and Volcano prototypes, this new optimizer provides (i) manipulation of operator arguments using rules or functions, (ii) operators that are both logical and physical for predicates etc., (iii) schema-specific rules for materialized views, (iv) rules to insert "enforcers" or "glue operators," (v) rule-specific guidance, permitting grouping of rules, (vi) basic facilities that will later permit parallel search, partially ordered cost measures, and dynamic plans, (vii) extensive tracing support, and (viii) a clean interface and implementation making full use of the abstraction mechanisms of C++. We describe and justify our design choices for each of these issues. The optimizer system described here is operational and will serve as the foundation for new query optimizers in Tandem's {NonStop} {SQL} product and in Microsoft's {SQL} Server product.},
 	author = {Graefe, Goetz},
-	file = {PDF:/Users/alex/Zotero/storage/YK54D6EI/graefe-ieee1995.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/YK54D6EI/graefe-ieee1995.pdf:application/pdf},
 }
 
 @report{chaudhuri_overview_nodate,
 	title = {An Overview of Query Optimization in Relational Systems},
 	author = {Chaudhuri, Surajit},
-	file = {PDF:/Users/alex/Zotero/storage/BAF9D9LK/chaudhuri-pods1998.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/BAF9D9LK/chaudhuri-pods1998.pdf:application/pdf},
 }
 
 @inproceedings{gupta_aggify_2020,
@@ -647,7 +648,7 @@
 	date = {2020-06-14},
 	note = {{ISSN}: 07308078},
 	keywords = {cursor loops, custom aggregates, query optimization},
-	file = {PDF:/Users/alex/Zotero/storage/WT28SGY7/gupta-sigmod20.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/WT28SGY7/gupta-sigmod20.pdf:application/pdf},
 }
 
 @inproceedings{duta_functional-style_2020,
@@ -662,7 +663,7 @@
 	date = {2020-06-14},
 	note = {{ISSN}: 07308078},
 	keywords = {call graph, functional programming, memoization, recursion, {SQL}, user-defined functions},
-	file = {PDF:/Users/alex/Zotero/storage/IV3JIGH6/duta-sigmod20.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/IV3JIGH6/duta-sigmod20.pdf:application/pdf},
 }
 
 @article{kuschewski_btrblocks_2023,
@@ -676,14 +677,14 @@
 	author = {Kuschewski, Maximilian and Sauerwein, David and Alhomssi, Adnan and Leis, Viktor},
 	date = {2023-06-13},
 	note = {Publisher: Association for Computing Machinery ({ACM})},
-	file = {PDF:/Users/alex/Zotero/storage/54S8FFVY/kuschewski-sigmod23.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/54S8FFVY/kuschewski-sigmod23.pdf:application/pdf},
 }
 
 @report{kohn_adaptive_nodate,
 	title = {Adaptive Execution of Compiled Queries},
 	abstract = {Compiling queries to machine code is a very efficient way for executing queries. One often overlooked problem with compilation is the time it takes to generate machine code. Even with fast compilation frameworks like {LLVM}, generating machine code for complex queries often takes hundreds of milliseconds. Such durations can be a major disadvantage for workloads that execute many complex, but quick queries. To solve this problem, we propose an adaptive execution framework, which dynamically switches from interpretation to compilation. We also propose a fast bytecode interpreter for {LLVM}, which can execute queries without costly translation to machine code and dramatically reduces the query latency. Adaptive execution is fine-grained, and can execute code paths of the same query using different execution modes. Our evaluation shows that this approach achieves optimal performance in a wide variety of settings-low latency for small data sets and maximum throughput for large data sizes.},
 	author = {Kohn, André and Leis, Viktor and Neumann, Thomas},
-	file = {PDF:/Users/alex/Zotero/storage/VGTGRU5H/kohn-icde2018.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/VGTGRU5H/kohn-icde2018.pdf:application/pdf},
 }
 
 @book{ieee_staff_2010_2010,
@@ -692,7 +693,7 @@
 	publisher = {{IEEE}},
 	author = {{IEEE} Staff, .},
 	date = {2010},
-	file = {PDF:/Users/alex/Zotero/storage/TJ4MV2DL/krikellas-icde2010.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/TJ4MV2DL/krikellas-icde2010.pdf:application/pdf},
 }
 
 @book{ross_proceedings_2013,
@@ -703,14 +704,14 @@
 	publisher = {{ACM}},
 	author = {Ross, Kenneth.},
 	date = {2013},
-	file = {PDF:/Users/alex/Zotero/storage/UPXXSFHA/li-sigmod2013.pdf:application/pdf;PDF:/Users/alex/Zotero/storage/E6XPC3GJ/p1231-raducanu.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/UPXXSFHA/li-sigmod2013.pdf:application/pdf;PDF:/Users/alex/Documents/Zotoro/storage/E6XPC3GJ/p1231-raducanu.pdf:application/pdf},
 }
 
 @report{neumann_unnesting_nodate,
 	title = {Unnesting Arbitrary Queries},
 	abstract = {{SQL}-99 allows for nested subqueries at nearly all places within aq uery. From au ser'sp oint of view, nested queries can greatly simplify the formulation of complexq ueries. However, nested queries that are correlated with the outer queries frequently lead to dependent joins with nested loops evaluations and thus poor performance. Existing systems therefore use anumber of heuristics to unnest these queries, i.e., de-correlate them. These unnesting techniques can greatly speed up query processing, buta re usually limited to certain classes of queries. To the best of our knowledge no existing system can de-correlate queries in the general case. We present ageneric approach for unnesting arbitrary queries. As aresult, the de-correlated queries allow for much simpler and much more efficient query evaluation.},
 	author = {Neumann, Thomas and Kemper, Alfons},
-	file = {PDF:/Users/alex/Zotero/storage/JNDNWYI9/neumann-btw2015.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/JNDNWYI9/neumann-btw2015.pdf:application/pdf},
 }
 
 @inproceedings{lang_make_2020,
@@ -726,7 +727,7 @@
 	note = {Issue: 2-3
 {ISSN}: 0949877X},
 	keywords = {{AVX}-512, Control flow divergence, Database systems, Query compilation, Query execution, {SIMD}, Vectorization},
-	file = {PDF:/Users/alex/Zotero/storage/VP8QDZBY/lang-vldbj2020.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/VP8QDZBY/lang-vldbj2020.pdf:application/pdf},
 }
 
 @inproceedings{li_accelerating_2016,
@@ -742,7 +743,7 @@
 	date = {2016-06-26},
 	note = {{ISSN}: 07308078},
 	keywords = {Buffer pool extension, Opportunistic caching, {RDMA}, Relational databases, Remote memory, Semantic caching},
-	file = {PDF:/Users/alex/Zotero/storage/MHPKGB9U/li-sigmod2016.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/MHPKGB9U/li-sigmod2016.pdf:application/pdf},
 }
 
 @inproceedings{ngom_filter_2021,
@@ -754,49 +755,49 @@
 	publisher = {Association for Computing Machinery, Inc},
 	author = {Ngom, Amadou and Menon, Prashanth and Butrovich, Matthew and Ma, Lin and Lim, Wan Shen and Mowry, Todd C. and Pavlo, Andrew},
 	date = {2021-06-20},
-	file = {PDF:/Users/alex/Zotero/storage/6VPET25P/ngom-damon2021.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/6VPET25P/ngom-damon2021.pdf:application/pdf},
 }
 
 @report{ngo_skew_nodate,
 	title = {Skew Strikes Back: New Developments in the Theory of Join Algorithms˚{HungAlgorithms}˚},
 	abstract = {Evaluating the relational join is one of the central al-gorithmic and most well-studied problems in database systems. A staggering number of variants have been considered including Block-Nested loop join, Hash-Join, Grace, Sort-merge (see Grafe [17] for a survey, and [4, 7, 24] for discussions of more modern issues). Commercial database engines use finely tuned join heuristics that take into account a wide variety of factors including the selectivity of various predicates, memory, {IO}, etc. This study of join queries notwithstanding, the textbook description of join processing is suboptimal. This survey describes recent results on join algorithms that have provable worst-case optimality runtime guarantees. We survey recent work and provide a simpler and unified description of these algorithms that we hope is useful for theory-minded readers, algorithm designers, and systems implementors. Much of this progress can be understood by thinking about a simple join evaluation problem that we illustrate with the so-called triangle query, a query that has become increasingly popular in the last decade with the advent of social networks, biological motifs, and graph databases [36, 37] Suppose that one is given a graph with N edges, how many distinct triangles can there be in the graph? A first bound is to say that there are at most N edges, and hence at most {OpN} 3 q triangles. A bit more thought suggests that every triangle is indexed by any two of its sides and hence there at most {OpN} 2 q triangles. However, the correct, tight, and non-trivial asymptotic is {OpN} 3\{2 q.},
 	author = {Ngo, Algorithms˚hung Q and Ré, Christopher and Rudra, Atri and Barcelo, Pablo},
-	file = {PDF:/Users/alex/Zotero/storage/S4RY4PX8/ngo-sigmodrec13.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/S4RY4PX8/ngo-sigmodrec13.pdf:application/pdf},
 }
 
 @report{cusack_yellowbrick_nodate,
 	title = {Yellowbrick: An Elastic Data Warehouse on Kubernetes},
 	abstract = {The Yellowbrick Data Warehouse delivers efficient, scalable and resilient data warehousing in public clouds and in private data centers. The database management system is composed of a set of Kubernetes-orchestrated microservices. Kubernetes provides the single-source-of-truth for system configuration and state, and manages all data warehouse lifecycle operations, including the creation, expansion, contraction and destruction of elastic compute resources and shared services. The common runtime provided by Kubernetes enabled us to port to three different cloud providers in under a year. We created a {SQL} interface to Kubernetes to hide the details of the underlying microservices implementation from the end user. We also developed our own reliable network protocol based on the Data Plane Development Kit ({DPDK}) for efficient data exchange between nodes in the public cloud. In this paper, we provide an overview of Yellowbrick and its microservices approach to delivering elasticity, scalability and separation of compute and storage. We also describe the optimizations we have implemented in the operating system and in our software to drive efficiency and performance, supported by benchmark results. We conclude with lessons learned and discuss future developments.},
 	author = {Cusack, Mark and Adamson, John and Brinicombe, Mark and Carson, Neil and Kejser, Thomas and Peterson, Jim and Vasudev, Arvind and Westerfeld, Kurt and Wipfel, Robert},
-	file = {PDF:/Users/alex/Zotero/storage/8A2HI4LD/p2-cusack.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/8A2HI4LD/p2-cusack.pdf:application/pdf},
 }
 
 @report{franz_dear_nodate,
 	title = {Dear User-Defined Functions,  Inlining isn't working out so great for us.  Let's try batching to make our relationship work.  Sincerely, {SQL}},
 	abstract = {{SQL}'s user-defined functions ({UDFs}) allow developers to express complex computation using procedural logic. But {UDFs} have been the bane of database management systems ({DBMSs}) for decades because they inhibit optimization opportunities, potentially slowing down queries significantly. In response, batching and inlining techniques have been proposed to enable effective query optimization of {UDF} calls within {SQL}. Inlining is now available in a major commercial {DBMS}. But the trade-offs between both approaches on modern {DBMSs} remain unclear. We evaluate and compare {UDF} batching and inlining on enterprise and open-source {DBMSs} using a state-of-the-art {UDF}-centric workload. We observe the surprising result that although inlin-ing is better on simple {UDFs}, batching outperforms inlining by up to 93.4× for more complex {UDFs} because it makes it easier for a {DBMS}'s query optimizer to decorrelate subqueries. We propose a hybrid approach that chooses batching or inlining to achieve the best performance.},
 	author = {Franz, Kai and Arch, Samuel and Hirn, Denis and Grust, Torsten and Mowry, Todd C and Pavlo, Andrew},
-	file = {PDF:/Users/alex/Zotero/storage/YBHCSIJP/p13-franz.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/YBHCSIJP/p13-franz.pdf:application/pdf},
 }
 
 @report{duta_compiling_nodate,
 	title = {Compiling {PL}/{SQL} Away},
 	abstract = {"{PL}/{SQL} functions are slow," is common developer wisdom that derives from the tension between set-oriented {SQL} evaluation and statement-by-statement {PL}/{SQL} interpretation. We pursue the radical approach of compiling {PL}/{SQL} away, turning interpreted functions into regular subqueries that can then be efficiently evaluated together with their embracing {SQL} query, avoiding any {PL}/{SQL} ↔ {SQL} context switches. Input {PL}/{SQL} functions may exhibit arbitrary control flow. Iteration, in particular, is compiled into {SQL}-level recursion. {RDBMSs} across the board reward this compilation effort with significant run time savings that render established developer lore questionable.},
 	author = {Duta, Christian and Hirn, Denis and Grust, Torsten},
-	file = {PDF:/Users/alex/Zotero/storage/4PGJZMCX/p1-duta-cidr20.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/4PGJZMCX/p1-duta-cidr20.pdf:application/pdf},
 }
 
 @report{raasveldt_data_nodate,
 	title = {Data Management for Data Science Towards Embedded Analytics},
 	abstract = {The rise of Data Science has caused an influx of new users in need of data management solutions. However, instead of utilizing existing {RDBMS} solutions they are opting to use a stack of independent solutions for data storage and processing glued together by scripting languages. This is not because they do not need the functionality that an integrated {RDBMS} provides, but rather because existing {RDBMS} implementations do not cater to their use case. To solve these issues, we propose a new class of data management systems: embedded analytical systems. These systems are tightly integrated with analytical tools, and provide fast and efficient access to the data stored within them. In this work, we describe the unique challenges and opportunities w.r.t workloads, resilience and cooperation that are faced by this new class of systems and the steps we have taken towards addressing them in the {DuckDB} system.},
 	author = {Raasveldt, Mark and Mühleisen, Hannes},
-	file = {PDF:/Users/alex/Zotero/storage/FX3UCYHC/p23-raasveldt-cidr20.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/FX3UCYHC/p23-raasveldt-cidr20.pdf:application/pdf},
 }
 
 @report{chattopadhyay_shared_nodate,
 	title = {Shared Foundations: Modernizing Meta's Data Lakehouse},
 	abstract = {Data processing systems have evolved significantly over the last decade, driven by large trends in hardware and software, the exponential growth of data, and new and changing use cases. At Meta (and elsewhere), the various data systems composing the data lakehouse had historically evolved organically and independently, leading to data stack fragmentation, and resulting in work duplication , subpar system performance, and inconsistent user experience. This paper describes how we transformed the legacy data lake-house stack at Meta to adapt to the new realities through a large cross-organizational effort called Shared Foundations. This program promotes a compositional approach based on the principles of reusable components, deduplicated systems, and common and consistent {APIs}. The Shared Foundations effort has resulted in a more modern data architecture at Meta-one that offers better performance , richer features, higher engineering velocity, and a more consistent user experience, setting up the data lakehouse stack at Meta for faster innovation in the future.},
 	author = {Chattopadhyay, Biswapesh and Pedreira, Pedro and Agarwal, Sameer and Vakharia, Suketu and Li, Peng and Liu, Weiran and Narayanan, Sundaram},
-	file = {PDF:/Users/alex/Zotero/storage/IVISWDDR/p77-chattopadhyay.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/IVISWDDR/p77-chattopadhyay.pdf:application/pdf},
 }
 
 @report{atwal_motherduck_nodate,
@@ -804,7 +805,7 @@
 	url = {https://bit.ly/duckdb-blog-holistic-aggregates},
 	abstract = {We describe and demo {MotherDuck}: a new service that connects {DuckDB} to the cloud. {MotherDuck} provides the concept of hybrid query processing: the ability to execute queries partly on the client and partly in the cloud. We cover the motivation for {MotherDuck} and some of its use cases; and outline its system architecture, which heavily uses the extension mechanisms of {DuckDB}. {MotherDuck} allows existing {DuckDB} users who use a laptop, like data scientists, to start using cloud computing without changing their queries: this can provide better performance as well as scala-bility to larger datasets. It also provides them the ability to share {DuckDB} databases with others through the cloud for collaboration. Hybrid query processing opens the door to new data-intensive applications, such as low-latency analytical web apps, with {DuckDB}-wasm as the client running inside a browser. It also leads on to research questions, some of which we describe in the paper.},
 	author = {Atwal, R J and Boncz, Peter and Boyd, Ryan and Courtney, Antony and Döhmen, Till and Gerlinghoff, Florian and Huang, Jeff and Hwang, Joseph and Hyde, Raphael and Felder, Elena and Lacouture, Jacob and Lemaout, Yves and Leskes, Boaz and Liu, Yao and Monahan, Alex and Perkins, Dan and Tereshko, Tino and Tigani, Jordan and Ursa, Nick and Wang, Stephanie and Welsch, Yannick},
-	file = {PDF:/Users/alex/Zotero/storage/R3HR95LZ/p46-atwal.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/R3HR95LZ/p46-atwal.pdf:application/pdf},
 }
 
 @report{jain_analyzing_nodate,
@@ -812,7 +813,7 @@
 	url = {https://github.com/lhbench/lhbench.},
 	abstract = {Lakehouse storage systems that implement {ACID} transactions and other management features over data lake storage, such as Delta Lake, Apache Hudi and Apache Iceberg, have rapidly grown in popularity, replacing traditional data lakes at many organizations. These open storage systems with rich management features promise to simplify management of large datasets, accelerate {SQL} work-loads, and offer fast, direct file access for other workloads, such as machine learning. However, the research community has not explored the tradeoffs in designing lakehouse systems in detail. In this paper, we analyze the designs of the three most popular lake-house storage systems-Delta Lake, Hudi and Iceberg-and compare their performance and features among varying axes based on these designs. We also release a simple benchmark, {LHBench}, that researchers can use to compare other designs. {LHBench} is available at https://github.com/lhbench/lhbench.},
 	author = {Jain, Paras and Kraft, Peter and Power, Conor and Das, Tathagata and Stoica, Ion and Zaharia, Matei},
-	file = {PDF:/Users/alex/Zotero/storage/YJ4RBKB4/p92-jain.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/YJ4RBKB4/p92-jain.pdf:application/pdf},
 }
 
 @report{leis_tum_how_2150,
@@ -821,7 +822,7 @@
 	abstract = {Finding a good join order is crucial for query performance. In this paper, we introduce the Join Order Benchmark ({JOB}) and experimentally revisit the main components in the classic query opti-mizer architecture using a complex, real-world data set and realistic multi-join queries. We investigate the quality of industrial-strength cardinality estimators and find that all estimators routinely produce large errors. We further show that while estimates are essential for finding a good join order, query performance is unsatisfactory if the query engine relies too heavily on these estimates. Using another set of experiments that measure the impact of the cost model, we find that it has much less influence on query performance than the cardinality estimates. Finally, we investigate plan enumera-tion techniques comparing exhaustive dynamic programming with heuristic algorithms and find that exhaustive enumeration improves performance despite the sub-optimal cardinality estimates.},
 	author = {Leis {TUM}, Viktor and Gubichev {TUM}, Andrey and Mirchev {TUM}, Atanas and Boncz {CWI} pboncz, Peter and Alfons Kemper {TUM}, cwinl and Neumann {TUM}, Thomas},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/6Y3H5QJI/p204-leis.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/6Y3H5QJI/p204-leis.pdf:application/pdf},
 }
 
 @inproceedings{dageville_snowflake_2016,
@@ -837,7 +838,7 @@
 	date = {2016-06-26},
 	note = {{ISSN}: 07308078},
 	keywords = {Data warehousing, Database as a service, Multi-cluster shared data architecture},
-	file = {PDF:/Users/alex/Zotero/storage/VGL5IWDG/p215-dageville-snowflake.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/VGL5IWDG/p215-dageville-snowflake.pdf:application/pdf},
 }
 
 @inproceedings{zeng_empirical_2023,
@@ -854,7 +855,7 @@
 	eprint = {2304.05028},
 	note = {Issue: 2
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/P4HLTAWM/p148-zeng.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/P4HLTAWM/p148-zeng.pdf:application/pdf},
 }
 
 @book{noauthor_proceedings_2013,
@@ -862,7 +863,7 @@
 	isbn = {978-1-4503-0661-4},
 	publisher = {{ACM} Digital Library},
 	date = {2013},
-	file = {PDF:/Users/alex/Zotero/storage/XP6GUSQZ/p37-blanas.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/XP6GUSQZ/p37-blanas.pdf:application/pdf},
 }
 
 @inproceedings{sun_end--end_2020,
@@ -879,7 +880,7 @@
 	eprint = {1906.02560},
 	note = {Issue: 3
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/EMNRBRG6/p307-sun.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/EMNRBRG6/p307-sun.pdf:application/pdf},
 }
 
 @inproceedings{begoli_apache_2018,
@@ -896,7 +897,7 @@
 	eprint = {1802.10233},
 	note = {{ISSN}: 07308078},
 	keywords = {Apache calcite, Data management, Modular query optimization, Query algebra, Relational semantics, Storage adapters},
-	file = {PDF:/Users/alex/Zotero/storage/LWK2GW5I/p221-begoli.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/LWK2GW5I/p221-begoli.pdf:application/pdf},
 }
 
 @inproceedings{yang_deep_2020,
@@ -913,7 +914,7 @@
 	eprint = {1905.04278},
 	note = {Issue: 3
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/LI92J6AN/p279-yang.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/LI92J6AN/p279-yang.pdf:application/pdf},
 }
 
 @inproceedings{soliman_orca_2014,
@@ -928,7 +929,7 @@
 	date = {2014},
 	note = {{ISSN}: 07308078},
 	keywords = {Cost model, {MPP}, Parallel processing, Query optimization},
-	file = {PDF:/Users/alex/Zotero/storage/YYXHWDJK/p337-soliman.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/YYXHWDJK/p337-soliman.pdf:application/pdf},
 }
 
 @report{neumann_efficiently_2150,
@@ -936,7 +937,7 @@
 	abstract = {As main memory grows, query performance is more and more determined by the raw {CPU} costs of query processing itself. The classical iterator style query processing technique is very simple and flexible, but shows poor performance on modern {CPUs} due to lack of locality and frequent instruction mis-predictions. Several techniques like batch oriented processing or vectorized tuple processing have been proposed in the past to improve this situation, but even these techniques are frequently out-performed by handwritten execution plans. In this work we present a novel compilation strategy that translates a query into compact and efficient machine code using the {LLVM} compiler framework. By aiming at good code and data locality and predictable branch layout the resulting code frequently rivals the performance of handwritten C++ code. We integrated these techniques into the {HyPer} main memory database system and show that this results in excellent query performance while requiring only modest compilation time.},
 	author = {Neumann, Thomas},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/CBXN8QWN/p539-neumann.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/CBXN8QWN/p539-neumann.pdf:application/pdf},
 }
 
 @article{armbrust_delta_2020,
@@ -951,7 +952,7 @@
 	author = {Armbrust, Michael and Das, Tathagata and Sun, Liwen and Yavuz, Burak and Zhu, Shixiong and Murthy, Mukul and Torres, Joseph and van Hovell, Herman and Ionescu, Adrian and Łuszczak, Alicja and Świtakowski, Michał and Szafrański, Michał and Li, Xiao and Ueshin, Takuya and Mokhtar, Mostafa and Boncz, Peter and Ghodsi, Ali and Paranjpye, Sameer and Senster, Pieter and Xin, Reynold and Zaharia, Matei},
 	date = {2020},
 	note = {Publisher: {VLDB} Endowment},
-	file = {PDF:/Users/alex/Zotero/storage/3UWNF8FN/p975-armbrust.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/3UWNF8FN/p975-armbrust.pdf:application/pdf},
 }
 
 @report{zhu_looking_2150,
@@ -959,7 +960,7 @@
 	abstract = {Query optimizers and query execution engines cooperate to deliver high performance on complex analytic queries. Typically , the optimizer searches through the plan space and sends a selected plan to the execution engine. However, optimizers may at times miss the optimal plan, with sometimes disastrous impact on performance. In this paper, we develop the notion of robustness of a query evaluation strategy with respect to a space of query plans. We also propose a novel query execution strategy called Lookahead Information Passing ({LIP}) that is robust with respect to the space of (fully pipeline-able) left-deep query plan trees for in-memory star schema data warehouses. {LIP} ensures that execution times for the best and the worst case plans are far closer than without {LIP}. In fact, under certain assumptions of independent and uniform distributions, any plan in that space is theoretically guaranteed to execute in near-optimal time. {LIP} ensures that the execution time for every plan in the space is nearly-optimal. In this paper, we also evaluate these claims using workloads that include skew and correlation. With {LIP} we make an initial foray into a novel way of thinking about robustness from the perspective of query evaluation, where we develop strategies (like {LIP}) that collapse plan sub-spaces in the overall global plan space.},
 	author = {Zhu, Jianqiao and Potti, Navneet and Saurabh, Saket and Patel, Jignesh M},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/59QQ3IVA/p889-zhu.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/59QQ3IVA/p889-zhu.pdf:application/pdf},
 }
 
 @inproceedings{chen_two-level_2017,
@@ -975,7 +976,7 @@
 	date = {2017-05-09},
 	note = {{ISSN}: 07308078},
 	keywords = {Joins, Sampling},
-	file = {PDF:/Users/alex/Zotero/storage/7HSZ3ILL/p759-chen.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/7HSZ3ILL/p759-chen.pdf:application/pdf},
 }
 
 @report{afrati_storing_2150,
@@ -983,7 +984,7 @@
 	abstract = {In Dremel, data is stored as nested relations. The schema for a relation is a tree, all of whose nodes are attributes, and whose leaf attributes hold values. We explore filter and aggregate queries that are given in the Dremel dialect of {SQL}. Complications arise because of repeated attributes, i.e., attributes that are allowed to have more than one value. We focus on the common class of Dremel queries that are processed on column-stored data in a way that results in query processing time that is linear on the size of the relevant data, i.e., data in the columns that participate in the query. We formally define the data model, the query language and the algorithms for query processing in column-stored data. The concepts of repetition context and semi-flattening are introduced here and play a central role in understanding this class of queries and their algorithms.},
 	author = {Afrati, Foto N and Google, Dan Delorey and Google, Mosha Pasumansky and Ullman, Jeffrey D},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/ZN2ZHFZK/p1131-afrati.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/ZN2ZHFZK/p1131-afrati.pdf:application/pdf},
 }
 
 @report{raasveldt_dont_2150,
@@ -992,7 +993,7 @@
 	author = {Raasveldt, Mark},
 	date = {2150},
 	keywords = {Client Protocols, Data Export, Databases},
-	file = {PDF:/Users/alex/Zotero/storage/NEQIUSN2/p1022-muehleisen.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/NEQIUSN2/p1022-muehleisen.pdf:application/pdf},
 }
 
 @inproceedings{neumann_adaptive_2018,
@@ -1006,7 +1007,7 @@
 	author = {Neumann, Thomas and Radke, Bernhard},
 	date = {2018-05-27},
 	note = {{ISSN}: 07308078},
-	file = {PDF:/Users/alex/Zotero/storage/KCAVVMLM/p677-neumann.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/KCAVVMLM/p677-neumann.pdf:application/pdf},
 }
 
 @inproceedings{gruber_bringing_2023,
@@ -1021,7 +1022,7 @@
 	date = {2023},
 	note = {Issue: 6
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/8WBMQ84S/p1222-gruber.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/8WBMQ84S/p1222-gruber.pdf:application/pdf},
 }
 
 @inproceedings{leis_morsel-driven_2014,
@@ -1036,7 +1037,7 @@
 	date = {2014},
 	note = {{ISSN}: 07308078},
 	keywords = {Morsel-driven parallelism, {NUMA}-awareness},
-	file = {PDF:/Users/alex/Zotero/storage/GN2CGINK/p743-leis.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/GN2CGINK/p743-leis.pdf:application/pdf},
 }
 
 @inproceedings{ramachandra_froid_2018,
@@ -1053,7 +1054,7 @@
 	eprint = {1712.00498},
 	note = {Issue: 4
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/8TZ7I9JQ/p432-ramachandra.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/8TZ7I9JQ/p432-ramachandra.pdf:application/pdf},
 }
 
 @inproceedings{ding_plan_2018,
@@ -1068,7 +1069,7 @@
 	date = {2018},
 	note = {Issue: 10
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/5BMXP59S/p1123-ding.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/5BMXP59S/p1123-ding.pdf:application/pdf},
 }
 
 @inproceedings{kersten_everything_2018,
@@ -1083,7 +1084,7 @@
 	date = {2018},
 	note = {Issue: 13
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/SHLIJYIV/p2209-kersten.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/SHLIJYIV/p2209-kersten.pdf:application/pdf},
 }
 
 @article{freitag_adopting_2020,
@@ -1098,7 +1099,7 @@
 	author = {Freitag, Michael and Bandle, Maximilian and Schmidt, Tobias and Kemper, Alfons and Neumann, Thomas},
 	date = {2020-07-01},
 	note = {Publisher: {VLDB} Endowment},
-	file = {PDF:/Users/alex/Zotero/storage/ZW755TSW/p1891-freitag.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/ZW755TSW/p1891-freitag.pdf:application/pdf},
 }
 
 @report{psaroudakis_scaling_2150,
@@ -1106,7 +1107,7 @@
 	abstract = {Main-memory column-stores are called to efficiently use modern non-uniform memory access ({NUMA}) architectures to service concurrent clients on big data. The efficient usage of {NUMA} architectures depends on the data placement and scheduling strategy of the column-store. Most column-stores choose a static strategy that involves partitioning all data across the {NUMA} architecture, and employing a stealing-based task scheduler. In this paper, we implement different strategies for data placement and task scheduling for the case of concurrent scans. We compare these strategies with an extensive sensitivity analysis. Our most significant findings include that unnecessary partitioning can hurt through-put by up to 70\%, and that stealing memory-intensive tasks can hurt throughput by up to 58\%. Based on our analysis, we envision a design that adapts the data placement and task scheduling strategy to the workload.},
 	author = {Psaroudakis, Iraklis and Scheuer, Tobias and May, Norman and Sellami, Abdelkader and Ailamaki, Anastasia},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/LVUWI2AT/p1442-psaroudakis.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/LVUWI2AT/p1442-psaroudakis.pdf:application/pdf},
 }
 
 @inproceedings{pedreira_composable_2023,
@@ -1121,7 +1122,7 @@
 	date = {2023},
 	note = {Issue: 10
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/VVC5NYXP/p2679-pedreira.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/VVC5NYXP/p2679-pedreira.pdf:application/pdf},
 }
 
 @report{vengerov_join_2150,
@@ -1129,7 +1130,7 @@
 	abstract = {In this paper, we present a new algorithm for estimating the size of equality join of multiple database tables. The proposed algorithm, Correlated Sampling, constructs a small space synopsis for each table, which can then be used to provide a quick estimate of the join size of this table with other tables subject to dynamically specified predicate filter conditions, possibly specified over multiple columns (attributes) of each table. This algorithm makes a single pass over the data and is thus suitable for streaming scenarios. We compare this algorithm analytically to two other previously known sampling approaches (independent Bernoulli Sampling and End-Biased Sampling) and to a novel sketch-based approach. We also compare these four algorithms experimentally and show that results fully correspond to our analytical predictions based on derived expressions for the estimator variances, with Correlated Sampling giving the best estimates in a large range of situations.},
 	author = {Vengerov, David and Menck, Andre Cavalheiro and Zait, Mohamed and Chakkappen, Sunil P},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/FG4NB4PQ/p1530-vengerov.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/FG4NB4PQ/p1530-vengerov.pdf:application/pdf},
 }
 
 @inproceedings{schuh_experimental_2016,
@@ -1144,7 +1145,7 @@
 	author = {Schuh, Stefan and Chen, Xiao and Dittrich, Jens},
 	date = {2016-06-26},
 	note = {{ISSN}: 07308078},
-	file = {PDF:/Users/alex/Zotero/storage/5EK8T35P/schuh-sigmod2016-2.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/5EK8T35P/schuh-sigmod2016-2.pdf:application/pdf},
 }
 
 @inproceedings{afroozeh_fast_2023,
@@ -1159,7 +1160,7 @@
 	date = {2023},
 	note = {Issue: 9
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/7XNRPVVC/p2132-afroozeh.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/7XNRPVVC/p2132-afroozeh.pdf:application/pdf},
 }
 
 @report{richter_seven-dimensional_2150,
@@ -1167,7 +1168,7 @@
 	abstract = {Hashing is a solved problem. It allows us to get constant time access for lookups. Hashing is also simple. It is safe to use an arbitrary method as a black box and expect good performance, and optimizations to hashing can only improve it by a negligible delta. Why are all of the previous statements plain wrong? That is what this paper is about. In this paper we thoroughly study hashing for integer keys and carefully analyze the most common hashing methods in a five-dimensional requirements space: () data-distribution, () load factor, () dataset size, () read/write-ratio, and () un/successful-ratio. Each point in that design space may potentially suggest a different hashing scheme, and additionally also a different hash function. We show that a right or wrong decision in picking the right hashing scheme and hash function combination may lead to significant difference in performance. To substantiate this claim, we carefully analyze two additional dimensions: () five representative hashing schemes (which includes an improved variant of Robin Hood hashing), () four important classes of hash functions widely used today. That is, we consider 20 different combinations in total. Finally, we also provide a glimpse about the effect of table memory layout and the use of {SIMD} instructions. Our study clearly indicates that picking the right combination may have considerable impact on insert and lookup performance, as well as memory footprint. A major conclusion of our work is that hashing should be considered a white box before blindly using it in applications, such as query processing. Finally, we also provide a strong guideline about when to use which hashing method.},
 	author = {Richter, Stefan and Alvarez, Victor and Dittrich, Jens},
 	date = {2150},
-	file = {PDF:/Users/alex/Zotero/storage/IVQZAIBD/richter-vldb2015.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/IVQZAIBD/richter-vldb2015.pdf:application/pdf},
 }
 
 @inproceedings{pedreira_velox_2022,
@@ -1182,14 +1183,14 @@
 	date = {2022},
 	note = {Issue: 12
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/NNVLSVRS/p3372-pedreira.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/NNVLSVRS/p3372-pedreira.pdf:application/pdf},
 }
 
 @report{stillger_leo-db2s_nodate,
 	title = {{LEO}-{DB}2's {LEarning} Optimizer},
 	abstract = {Most modern {DBMS} optimizers rely upon a cost model to choose the best query execution plan ({QEP}) for any given query. Cost estimates are heavily dependent upon the optimizer's estimates for the number of rows that will result at each step of the {QEP} for complex queries involving many predicates and/or operations. These estimates rely upon statistics on the database and modeling assumptions that may or may not be true for a given database. In this paper we introduce {LEO}, {DB}2's {LEarning} Optimizer, as a comprehensive way to repair incorrect statistics and cardinality estimates of a query execution plan. By monitoring previously executed queries, {LEO} compares the optimizer's estimates with actuals at each step in a {QEP}, and computes adjustments to cost estimates and statistics that may be used during future query optimizations. This analysis can be done either on-line or off-line on a separate system, and either incrementally or in batches. In this way, {LEO} introduces a feedback loop to query optimization that enhances the available information on the database where the most queries have occurred, allowing the optimizer to actually learn from its past mistakes. Our technique is general and can be applied to any operation in a {QEP}, including joins, derived results after several predicates have been applied, and even to {DISTINCT} and {GROUP}-{BY} operators. As shown by performance measurements on a 10 {GB} {TPC}-H data set, the runtime overhead of {LEO}'s monitoring is insignificant, whereas the potential benefit to response time from more accurate cardinality and cost estimates can be orders of magnitude.},
 	author = {Stillger, Michael and Lohman, Guy and Markl, Volker and Kandil, Mokhtar},
-	file = {PDF:/Users/alex/Zotero/storage/MAFI9I4V/stillger-vldb2001.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/MAFI9I4V/stillger-vldb2001.pdf:application/pdf},
 }
 
 @inproceedings{polychroniou_rethinking_2015,
@@ -1204,7 +1205,7 @@
 	author = {Polychroniou, Orestis and Raghavan, Arun and Rossy, Kenneth A.},
 	date = {2015-05-27},
 	note = {{ISSN}: 07308078},
-	file = {PDF:/Users/alex/Zotero/storage/TVGKMI9C/p1493-polychroniou.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/TVGKMI9C/p1493-polychroniou.pdf:application/pdf},
 }
 
 @inproceedings{gupta_amazon_2015,
@@ -1219,7 +1220,7 @@
 	author = {Gupta, Anurag and Agarwal, Deepak and Tan, Derek and Kulesza, Jakub and Pathak, Rahul and Stefani, Stefano and Srinivasan, Vidhya},
 	date = {2015-05-27},
 	note = {{ISSN}: 07308078},
-	file = {PDF:/Users/alex/Zotero/storage/I6PEQCVS/p1917-gupta.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/I6PEQCVS/p1917-gupta.pdf:application/pdf},
 }
 
 @inproceedings{shaikhha_how_2016,
@@ -1234,7 +1235,7 @@
 	author = {Shaikhha, Amir and Klonatos, Yannis and Parreaux, Lionel and Brown, Lewis and Dashti, Mohammad and Koch, Christoph},
 	date = {2016-06-26},
 	note = {{ISSN}: 07308078},
-	file = {PDF:/Users/alex/Zotero/storage/EPHHFNGL/shaikhha-sigmod2016.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/EPHHFNGL/shaikhha-sigmod2016.pdf:application/pdf},
 }
 
 @inproceedings{gupta_procedural_2021,
@@ -1249,7 +1250,7 @@
 	date = {2021},
 	note = {Issue: 8
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/2I82XEP9/p1378-ramachandra.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/2I82XEP9/p1378-ramachandra.pdf:application/pdf},
 }
 
 @article{melnik_dremel_2020,
@@ -1264,7 +1265,7 @@
 	author = {Melnik, Sergey and Gubarev, Andrey and Long, Jing Jing and Romer, Geoffrey and Shivakumar, Shiva and Tolton, Matt and Ahmadi, Hossein and Delorey, Dan and Min, Slava and Pasumansky, Mosha and Shute, Jeff},
 	date = {2020},
 	note = {Publisher: {VLDB} Endowment},
-	file = {PDF:/Users/alex/Zotero/storage/8RU52SHH/p3461-melnik.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/8RU52SHH/p3461-melnik.pdf:application/pdf},
 }
 
 @inproceedings{marcus_neo_2018,
@@ -1281,7 +1282,7 @@
 	eprint = {1904.03711},
 	note = {Issue: 11
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/GPMCZXM7/p1705-marcus.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/GPMCZXM7/p1705-marcus.pdf:application/pdf},
 }
 
 @book{noauthor_2013_2013,
@@ -1289,7 +1290,7 @@
 	isbn = {978-1-4673-4910-9},
 	publisher = {{IEEE}},
 	date = {2013},
-	file = {PDF:/Users/alex/Zotero/storage/S3K7IPNW/shrinivas-icde2013.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/S3K7IPNW/shrinivas-icde2013.pdf:application/pdf},
 }
 
 @inproceedings{wang_connectorx_2022,
@@ -1304,7 +1305,7 @@
 	date = {2022},
 	note = {Issue: 11
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/A5HJP2GF/p2994-wang.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/A5HJP2GF/p2994-wang.pdf:application/pdf},
 }
 
 @inproceedings{armenatzoglou_amazon_2022,
@@ -1319,7 +1320,7 @@
 	date = {2022-06-10},
 	note = {{ISSN}: 07308078},
 	keywords = {analytics, autonomics, cloud data warehouse, data lake, elasticity, integration, {OLAP}, redshift, serverless},
-	file = {PDF:/Users/alex/Zotero/storage/HBW93UPU/redshift-sigmod2022.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/HBW93UPU/redshift-sigmod2022.pdf:application/pdf},
 }
 
 @inproceedings{liu_deep_2023,
@@ -1334,7 +1335,7 @@
 	date = {2023},
 	note = {Issue: 11
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/CVFJ2EYW/p3044-liu.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/CVFJ2EYW/p3044-liu.pdf:application/pdf},
 }
 
 @inproceedings{behm_photon_2022,
@@ -1349,7 +1350,7 @@
 	date = {2022-06-10},
 	note = {{ISSN}: 07308078},
 	keywords = {main memory engines, query processing, vectorization},
-	file = {PDF:/Users/alex/Zotero/storage/YRYBQPQF/sigmod_photon.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/YRYBQPQF/sigmod_photon.pdf:application/pdf},
 }
 
 @inproceedings{winter_-demand_2022,
@@ -1364,7 +1365,7 @@
 	date = {2022},
 	note = {Issue: 11
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/2Z692XLK/p2966-winter.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/2Z692XLK/p2966-winter.pdf:application/pdf},
 }
 
 @inproceedings{butrovich_tigger_2023,
@@ -1379,7 +1380,7 @@
 	date = {2023},
 	note = {Issue: 11
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/DRRTRLTE/p3335-butrovich.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/DRRTRLTE/p3335-butrovich.pdf:application/pdf},
 }
 
 @inproceedings{wagner_self-tuning_2021,
@@ -1393,7 +1394,7 @@
 	date = {2021},
 	note = {{ISSN}: 07308078},
 	keywords = {database systems, parallelism, query scheduling, self-tuning},
-	file = {PDF:/Users/alex/Zotero/storage/KCVXQQ9K/wagner-sigmod21.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/KCVXQQ9K/wagner-sigmod21.pdf:application/pdf},
 }
 
 @book{noauthor_proceedings_2019,
@@ -1401,7 +1402,7 @@
 	isbn = {978-1-939133-13-7},
 	publisher = {{USENIX} Association},
 	date = {2019},
-	file = {PDF:/Users/alex/Zotero/storage/BKYUHC7F/vuppalapati-nsdi22.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/BKYUHC7F/vuppalapati-nsdi22.pdf:application/pdf},
 }
 
 @report{sethi_presto_nodate,
@@ -1410,21 +1411,21 @@
 	abstract = {Presto is an open source distributed query engine that supports much of the {SQL} analytics workload at Facebook. Presto is designed to be adaptive, flexible, and extensible. It supports a wide variety of use cases with diverse characteristics. These range from user-facing reporting applications with sub-second latency requirements to multi-hour {ETL} jobs that aggregate or join terabytes of data. Presto's Connector {API} allows plugins to provide a high performance I/O interface to dozens of data sources, including Hadoop data warehouses, {RDBMSs}, {NoSQL} systems, and stream processing systems. In this paper, we outline a selection of use cases that Presto supports at Facebook. We then describe its architecture and implementation, and call out features and performance optimizations that enable it to support these use cases. Finally, we present performance results that demonstrate the impact of our main design decisions.},
 	author = {Sethi, Raghav and Traverso, Martin and Sundstrom, Dain and Phillips, David and Xie, Wenlei and Sun, Yutian and Yigitbasi, Nezih and Jin, Haozhun and Hwang, Eric and Shingte, Nileema and Berner, Christopher},
 	keywords = {big data, data warehouse, Index Terms-{SQL}, query engine},
-	file = {PDF:/Users/alex/Zotero/storage/NNMFM35F/240861303_1946229012222045_8738935750973889667_n.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/NNMFM35F/240861303_1946229012222045_8738935750973889667_n.pdf:application/pdf},
 }
 
 @report{twigg_stratified_nodate,
 	title = {Stratified B-trees and versioning dictionaries},
 	abstract = {External-memory versioned dictionaries are fundamental to file systems, databases and many other algorithms. The ubiquitous data structure is the copy-on-write ({CoW}) B-tree. Unfortunately, it doesn't inherit the B-tree's optimality properties; it has poor space utilization , cannot offer fast updates, and relies on random {IO} to scale. We describe the 'stratified B-tree', which is the first versioned dictionary offering fast updates and an optimal tradeoff between space, query and update costs.},
 	author = {Twigg, Andy and Byde, Andrew and Miło, Grzegorz and Moreton, Tim and Wilkes, John and Wilkie, Tom},
-	file = {PDF:/Users/alex/Zotero/storage/C2CATWAS/2011-hotstorage.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/C2CATWAS/2011-hotstorage.pdf:application/pdf},
 }
 
 @report{kuszmaul_comparison_2014,
 	title = {A Comparison of Fractal Trees to Log-Structured Merge ({LSM}) Trees},
 	author = {Kuszmaul, Bradley C},
 	date = {2014},
-	file = {PDF:/Users/alex/Zotero/storage/BD8565ZY/lsm-vs-fractal.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/BD8565ZY/lsm-vs-fractal.pdf:application/pdf},
 }
 
 @report{drepper_what_2007,
@@ -1432,7 +1433,7 @@
 	abstract = {As {CPU} cores become both faster and more numerous, the limiting factor for most programs is now, and will be for some time, memory access. Hardware designers have come up with ever more sophisticated memory handling and acceleration techniques-such as {CPU} caches-but these cannot work optimally without some help from the programmer. Unfortunately, neither the structure nor the cost of using the memory subsystem of a computer or the caches on {CPUs} is well understood by most programmers. This paper explains the structure of memory subsystems in use on modern commodity hardware, illustrating why {CPU} caches were developed, how they work, and what programs should do to achieve optimal performance by utilizing them.},
 	author = {Drepper, Ulrich},
 	date = {2007},
-	file = {PDF:/Users/alex/Zotero/storage/6SWRITY9/cpumemory.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/6SWRITY9/cpumemory.pdf:application/pdf},
 }
 
 @article{mishra_survey_2024,
@@ -1443,7 +1444,7 @@
 	date = {2024-02-16},
 	eprinttype = {arxiv},
 	eprint = {2402.10460},
-	file = {PDF:/Users/alex/Zotero/storage/QMMI8RAR/2402.10460v2.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/QMMI8RAR/2402.10460v2.pdf:application/pdf},
 }
 
 @book{noauthor_proceedings_2016,
@@ -1451,14 +1452,14 @@
 	isbn = {978-1-931971-28-7},
 	publisher = {{USENIX} Association},
 	date = {2016},
-	file = {PDF:/Users/alex/Zotero/storage/XAM6UXZX/fast16-papers-lu.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/XAM6UXZX/fast16-papers-lu.pdf:application/pdf},
 }
 
 @report{li_secure_nodate,
 	title = {Secure Untrusted Data Repository ({SUNDR})},
 	abstract = {{SUNDR} is a network file system designed to store data securely on untrusted servers. {SUNDR} lets clients detect any attempts at unauthorized file modification by malicious server operators or users. {SUNDR}'s protocol achieves a property called fork consistency, which guarantees that clients can detect any integrity or consistency failures as long as they see each other's file modifications. An implementation is described that performs comparably with {NFS} (sometimes better and sometimes worse), while offering significantly stronger security.},
 	author = {Li, Jinyuan and Krohn, Maxwell and Mazì, David and Shasha, Dennis},
-	file = {PDF:/Users/alex/Zotero/storage/9SBLPT4N/li-sundr.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/9SBLPT4N/li-sundr.pdf:application/pdf},
 }
 
 @book{elhemali_amazon_nodate,
@@ -1467,7 +1468,7 @@
 	url = {https://www.usenix.org/conference/atc22/presentation/vig},
 	abstract = {Amazon {DynamoDB} is a {NoSQL} cloud database service that provides consistent performance at any scale. Hundreds of thousands of customers rely on {DynamoDB} for its fundamental properties: consistent performance, availability, durability, and a fully managed serverless experience. In 2021, during the 66-hour Amazon Prime Day shopping event, Amazon systems-including Alexa, the Amazon.com sites, and Amazon fulfillment centers, made trillions of {API} calls to {DynamoDB}, peak-ing at 89.2 million requests per second, while experiencing high availability with single-digit millisecond performance. Since the launch of {DynamoDB} in 2012, its design and implementation have evolved in response to our experiences operating it. The system has successfully dealt with issues related to fairness, traffic imbalance across partitions, monitoring , and automated system operations without impacting availability or performance. Reliability is essential, as even the slightest disruption can significantly impact customers. This paper presents our experience operating {DynamoDB} at a massive scale and how the architecture continues to evolve to meet the ever-increasing demands of customer workloads.},
 	author = {Elhemali, Mostafa and Gallagher, Niall and Gordon, Nicholas and Idziorek, Joseph and Krog, Richard and Lazier, Colin and Mo, Erben and Mritunjai, Akhilesh and Perianayagam, Somu and Rath, Tim and Sivasubramanian, Swami and Sorenson, James Christopher and Sosothikul, Sroaj and Terry, Doug and Vig, Akshat},
-	file = {PDF:/Users/alex/Zotero/storage/C4S572R6/atc22-dynamodb.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/C4S572R6/atc22-dynamodb.pdf:application/pdf},
 }
 
 @book{brooker_-demand_nodate,
@@ -1476,7 +1477,7 @@
 	url = {https://www.usenix.org/conference/atc23/presentation/brooker},
 	abstract = {{AWS} Lambda is a serverless event-driven compute service, part of a category of cloud compute offerings sometimes called Function-as-a-service ({FaaS}). When we first released {AWS} Lambda, functions were limited to 250MB of code and dependencies, packaged as a simple compressed archive. In 2020, we released support for deploying container images as large as 10GiB as Lambda functions, allowing customers to bring much larger code bases and sets of dependencies to Lambda. Supporting larger packages, while still meeting Lambda's goals of rapid scale (adding up to 15,000 new containers per second for a single customer, and much more in aggregate), high request rate (millions of requests per second), high scale (millions of unique workloads), and low start-up times (as low as 50ms) presented a significant challenge. We describe the storage and caching system we built, optimized for delivering container images on-demand, and our experiences designing, building, and operating it at scale. We focus on challenges around security, efficiency, latency, and cost, and how we addressed these challenges in a system that combines caching, deduplication, convergent encryption, erasure coding, and block-level demand loading. Since building this system, it has reliably processed hundreds of trillions of Lambda invocations for over a million {AWS} customers, and has shown excellent resilience to load and infrastructure failures.},
 	author = {Brooker, Marc and Danilov, Mike and Greenwood, Chris and Piwonka, Phil},
-	file = {PDF:/Users/alex/Zotero/storage/6V2HXKGD/atc23-brooker.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/6V2HXKGD/atc23-brooker.pdf:application/pdf},
 }
 
 @inproceedings{jia_boki_2021,
@@ -1490,7 +1491,7 @@
 	author = {Jia, Zhipeng and Witchel, Emmett},
 	date = {2021-10-26},
 	keywords = {consistency, function-as-a-service, Serverless computing, shared log},
-	file = {PDF:/Users/alex/Zotero/storage/WEPDNMKS/jia21sosp-boki.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/WEPDNMKS/jia21sosp-boki.pdf:application/pdf},
 }
 
 @report{castro_practical_1999,
@@ -1498,7 +1499,7 @@
 	abstract = {This paper describes a new replication algorithm that is able to tolerate Byzantine faults. We believe that Byzantine-fault-tolerant algorithms will be increasingly important in the future because malicious attacks and software errors are increasingly common and can cause faulty nodes to exhibit arbitrary behavior. Whereas previous algorithms assumed a synchronous system or were too slow to be used in practice, the algorithm described in this paper is practical: it works in asynchronous environments like the Internet and incorporates several important optimizations that improve the response time of previous algorithms by more than an order of magnitude. We implemented a Byzantine-fault-tolerant {NFS} service using our algorithm and measured its performance. The results show that our service is only 3\% slower than a standard unreplicated {NFS}.},
 	author = {Castro, Miguel and Liskov, Barbara},
 	date = {1999},
-	file = {PDF:/Users/alex/Zotero/storage/DSEEUEE7/castro-practicalbft.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/DSEEUEE7/castro-practicalbft.pdf:application/pdf},
 }
 
 @book{xie_this_nodate,
@@ -1507,14 +1508,14 @@
 	url = {https://www.usenix.org/conference/osdi23/presentation/eldeeb},
 	abstract = {Distributed on-disk database systems could either use an expensive commit protocol like two-phase commit (2PC) to guarantee atomicity, and suffer from slow distributed transactions, or forgo 2PC, which lead to weaker semantics , limitations to the programming model, or constrained scalability, making the system less general. We argue this compromise is no longer necessary within modern datacenters. Low latency 2PC (∼150 µs on Azure for 2PC over Paxos) can be achieved using low-latency storage for the relatively small transaction logs, fast {RPCs}, and careful protocol design. With fast 2PC, the data contention bottleneck for many transactions shifts from 2PC to reading the data itself from the relatively slow storage while holding transaction locks. We present Chardonnay, a scalable, on-disk, multi-versioned transactional key-value store optimized for single datacenter deployments with fast 2PC. Chardon-nay has a general interface supporting point reads, scans, and writes within multi-step strictly serializable {ACID} transactions. The key mechanism underlying Chardon-nay's design is strongly consistent snapshot reads on commodity hardware, using a novel lock-free read protocol. Chardonnay uses this protocol to cheaply determine the read-write sets of queries, enabling Chardonnay to transparently prefetch data needed for a transaction prior to the execution of the transaction and the acquisition of locks. This enables Chardonnay to achieve fast transactions by minimizing contention, and avoids aborts due to deadlocks by ordering lock requests.},
 	author = {Xie, Xincheng and Bernstein, Philip A and Eldeeb, Tamer and Yang, Junfeng},
-	file = {PDF:/Users/alex/Zotero/storage/6JD6J7GE/osdi23-eldeeb.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/6JD6J7GE/osdi23-eldeeb.pdf:application/pdf},
 }
 
 @report{wang_ownership_nodate,
 	title = {Ownership: A Distributed Futures System for Fine-Grained Tasks},
 	abstract = {The distributed futures interface is an increasingly popular choice for building distributed applications that manipulate large amounts of data. Distributed futures are an extension of {RPC} that combines futures and distributed memory: a distributed future is a reference whose eventual value may be stored on a remote node. An application can then express distributed computation without having to specify when or where execution should occur and data should be moved. Recent distributed futures applications require the ability to execute fine-grained computations, i.e., tasks that run on the order of milliseconds. Compared to coarse-grained tasks, fine-grained tasks are difficult to execute with acceptable system overheads. In this paper, we present a distributed futures system for fine-grained tasks that provides fault tolerance without sacrificing performance. Our solution is based on a novel concept called ownership, which assigns each object a leader for system operations. We show that this decentralized architecture can achieve horizontal scaling, 1ms latency per task, and fast failure handling.},
 	author = {Wang, Stephanie and Liang, Eric and Oakes, Edward and Hindman, Ben and Luan, Frank and Cheng, Audrey},
-	file = {PDF:/Users/alex/Zotero/storage/2EP6PHHL/ray.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/2EP6PHHL/ray.pdf:application/pdf},
 }
 
 @inproceedings{dragojevic_no_2015,
@@ -1527,7 +1528,7 @@
 	publisher = {Association for Computing Machinery, Inc},
 	author = {Dragojević, Aleksandar and Narayanan, Dushyanth and Nightingale, Edmund B. and Renzelmann, Matthew and Shamis, Alex and Badam, Anirudh and Castro, Miguel},
 	date = {2015-10-04},
-	file = {PDF:/Users/alex/Zotero/storage/JN7YS6AQ/farm-2015.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/JN7YS6AQ/farm-2015.pdf:application/pdf},
 }
 
 @article{sharma_grove_2023,
@@ -1539,14 +1540,14 @@
 	date = {2023-09-06},
 	eprinttype = {arxiv},
 	eprint = {2309.03046},
-	file = {PDF:/Users/alex/Zotero/storage/N8ESUWDP/grove.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/N8ESUWDP/grove.pdf:application/pdf},
 }
 
 @report{meiklejohn_resilient_2024,
 	title = {Resilient Microservice Applications, by Design, and without the Chaos},
 	author = {Meiklejohn, Christopher S and Alvaro, Peter},
 	date = {2024},
-	file = {PDF:/Users/alex/Zotero/storage/QRWDUH73/cmeiklej_phd_s3d_2024.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/QRWDUH73/cmeiklej_phd_s3d_2024.pdf:application/pdf},
 }
 
 @article{radford_learning_2021,
@@ -1557,7 +1558,7 @@
 	date = {2021-02-26},
 	eprinttype = {arxiv},
 	eprint = {2103.00020},
-	file = {PDF:/Users/alex/Zotero/storage/BRARW9UI/2103.00020v1.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/BRARW9UI/2103.00020v1.pdf:application/pdf},
 }
 
 @report{malkov_efficient_nodate,
@@ -1565,7 +1566,7 @@
 	abstract = {We present a new approach for the approximate K-nearest neighbor search based on navigable small world graphs with controllable hierarchy (Hierarchical {NSW}, {HNSW}). The proposed solution is fully graph-based, without any need for additional search structures, which are typically used at the coarse search stage of the most proximity graph techniques. Hierarchical {NSW} incrementally builds a multi-layer structure consisting from hierarchical set of proximity graphs (layers) for nested subsets of the stored elements. The maximum layer in which an element is present is selected randomly with an exponentially decaying probability distribution. This allows producing graphs similar to the previously studied Navigable Small World ({NSW}) structures while additionally having the links separated by their characteristic distance scales. Starting search from the upper layer together with utilizing the scale separation boosts the performance compared to {NSW} and allows a logarithmic complexity scaling. Additional employment of a heuristic for selecting proximity graph neighbors significantly increases performance at high recall and in case of highly clustered data. Performance evaluation has demonstrated that the proposed general metric space search index is able to strongly outperform previous opensource state-of-the-art vector-only approaches. Similarity of the algorithm to the skip list structure allows straightforward balanced distributed implementation.},
 	author = {Malkov, Yu A and Yashunin, D A},
 	keywords = {Approximate search, Artificial Intelligence, Big data, Data Structures, Graphs and networks, Index Terms-Graph and tree search strategies, Information Search and Retrieval, Information Storage and Retrieval, Information Technology and Systems, Nearest neighbor search, Search process, Similarity search},
-	file = {PDF:/Users/alex/Zotero/storage/CDTL72FP/1603.09320v4.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/CDTL72FP/1603.09320v4.pdf:application/pdf},
 }
 
 @article{graefe_modern_2010,
@@ -1579,14 +1580,14 @@
 	journaltitle = {Foundations and Trends in Databases},
 	author = {Graefe, Goetz},
 	date = {2010},
-	file = {PDF:/Users/alex/Zotero/storage/F55BIX26/btreesurvey-graefe.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/F55BIX26/btreesurvey-graefe.pdf:application/pdf},
 }
 
 @report{oneil_log-structured_nodate,
 	title = {The Log-Structured Merge-Tree ({LSM}-Tree)},
 	abstract = {High-performance transaction system applications typically insert rows in a History table to provide an activity trace; at the same time the transaction system generates log records for purposes of system recovery. Both types of generated information can benefit from efficient indexing. An example in a well-known setting is the {TPC}-A benchmark application, modified to support efficient queries on the History for account activity for specific accounts. This requires an index by account-id on the fast-growing History table. Unfortunately, standard disk-based index structures such as the B-tree will effectively double the I/O cost of the transaction to maintain an index such as this in real time, increasing the total system cost up to fifty percent. Clearly a method for maintaining a real-time index at low cost is desirable. The Log-Structured Merge-tree ({LSM}-tree) is a disk-based data structure designed to provide low-cost indexing for a file experiencing a high rate of record inserts (and deletes) over an extended period. The {LSM}-tree uses an algorithm that defers and batches index changes, cascading the changes from a memory-based component through one or more disk components in an efficient manner reminiscent of merge sort. During this process all index values are continuously accessible to retrievals (aside from very short locking periods), either through the memory component or one of the disk components. The algorithm has greatly reduced disk arm movements compared to a traditional access methods such as B-trees, and will improve cost-performance in domains where disk arm costs for inserts with traditional access methods overwhelm storage media costs. The {LSM}-tree approach also generalizes to operations other than insert and delete. However, indexed finds requiring immediate response will lose I/O efficiency in some cases, so the {LSM}-tree is most useful in applications where index inserts are more common than finds that retrieve the entries. This seems to be a common property for History tables and log files, for example. The conclusions of Section 6 compare the hybrid use of memory and disk components in the {LSM}-tree access method with the commonly understood advantage of the hybrid method to buffer disk pages in memory.},
 	author = {O'neil, Patrick and Cheng, Edward and Gawlick, Dieter and O'neil, Elizabeth},
-	file = {PDF:/Users/alex/Zotero/storage/9MCVZS8Z/lsmtree.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/9MCVZS8Z/lsmtree.pdf:application/pdf},
 }
 
 @inproceedings{lee_waltz_2023,
@@ -1601,7 +1602,7 @@
 	date = {2023},
 	note = {Issue: 11
 {ISSN}: 21508097},
-	file = {PDF:/Users/alex/Zotero/storage/ABAFA83P/p2884-lee.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/ABAFA83P/p2884-lee.pdf:application/pdf},
 }
 
 @article{huang_splitzns_2023,
@@ -1616,7 +1617,7 @@
 	date = {2023-08-07},
 	note = {Publisher: Association for Computing Machinery},
 	keywords = {{LSM}-tree, garbage collection, Zoned Namespace},
-	file = {PDF:/Users/alex/Zotero/storage/366S8DUK/3608476.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/366S8DUK/3608476.pdf:application/pdf},
 }
 
 @inproceedings{dang_noblsm_2022,
@@ -1631,7 +1632,7 @@
 	date = {2022-07-10},
 	note = {{ISSN}: 0738100X},
 	keywords = {{LSM}-tree, asynchronous commit, fsync, key-value store},
-	file = {PDF:/Users/alex/Zotero/storage/DWLGSPG4/3489517.3530470.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/DWLGSPG4/3489517.3530470.pdf:application/pdf},
 }
 
 @article{li_efficient_2022,
@@ -1642,7 +1643,7 @@
 	date = {2022-05-23},
 	eprinttype = {arxiv},
 	eprint = {2205.11753},
-	file = {PDF:/Users/alex/Zotero/storage/54ARAASQ/2205.11753v1.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/54ARAASQ/2205.11753v1.pdf:application/pdf},
 }
 
 @article{didona_toward_2020,
@@ -1653,7 +1654,7 @@
 	date = {2020-06-08},
 	eprinttype = {arxiv},
 	eprint = {2006.04658},
-	file = {PDF:/Users/alex/Zotero/storage/Q6DTKAPE/2006.04658v1.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/Q6DTKAPE/2006.04658v1.pdf:application/pdf},
 }
 
 @article{sun_co-kv_2018,
@@ -1664,7 +1665,7 @@
 	date = {2018-07-11},
 	eprinttype = {arxiv},
 	eprint = {1807.04151},
-	file = {PDF:/Users/alex/Zotero/storage/NUKNMRET/1807.04151v1.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/NUKNMRET/1807.04151v1.pdf:application/pdf},
 }
 
 @inproceedings{wang_efficient_2014,
@@ -1676,7 +1677,7 @@
 	publisher = {Association for Computing Machinery},
 	author = {Wang, Peng and Sun, Guangyu and Jiang, Song and Ouyang, Jian and Lin, Shiding and Zhang, Chen and Cong, Jason},
 	date = {2014},
-	file = {PDF:/Users/alex/Zotero/storage/TJP6PGEY/eurosys2014_final44.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/TJP6PGEY/eurosys2014_final44.pdf:application/pdf},
 }
 
 @inproceedings{mei_lsm-tree_2017,
@@ -1690,7 +1691,7 @@
 	author = {Mei, Fei and Cao, Qiang and Jiang, Hong and Tian, Lei},
 	date = {2017-09-24},
 	keywords = {{LSM}-tree, Application managed storage, File system performance, Key-value store},
-	file = {PDF:/Users/alex/Zotero/storage/3FVCKGFB/3127479.3127486.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/3FVCKGFB/3127479.3127486.pdf:application/pdf},
 }
 
 @article{zhao_autumn_2023,
@@ -1701,7 +1702,7 @@
 	date = {2023-05-08},
 	eprinttype = {arxiv},
 	eprint = {2305.05074},
-	file = {PDF:/Users/alex/Zotero/storage/47IZ26B2/2305.05074v2.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/47IZ26B2/2305.05074v2.pdf:application/pdf},
 }
 
 @report{qin_loglog-beta_nodate,
@@ -1709,7 +1710,7 @@
 	abstract = {​-The information presented in this paper defines {LogLog}-Beta ({LogLog}-β). {LogLog}-β is a new algorithm for estimating cardinalities based on {LogLog} counting. The new algorithm uses only one formula and needs no additional bias corrections for the entire range of cardinalities, therefore, it is more efficient and simpler to implement. Our simulations show that the accuracy provided by the new algorithm is as good as or better than the accuracy provided by either of {HyperLogLog} or {HyperLogLog}++. In addition to {LogLog}-β we also provide another one-formula estimator for cardinalities based on order statistics, a modification of an algorithm described in Lumbroso's work.},
 	author = {Qin, Jason and Kim, Denys and Tung, Yumei},
 	keywords = {Approximation algorithms, Data Mining, Index Terms​-Data analysis},
-	file = {PDF:/Users/alex/Zotero/storage/6U28IKPL/1612.02284v3.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/6U28IKPL/1612.02284v3.pdf:application/pdf},
 }
 
 @report{flajolet_hyperloglog_2007,
@@ -1719,24 +1720,14 @@
 	author = {Flajolet, Philippe and Fusy, Éric and Gandouet, Olivier and Meunier, Frédéric},
 	date = {2007},
 	note = {Publication Title: {AofA}},
-	file = {PDF:/Users/alex/Zotero/storage/ZQP3YGWJ/FlFuGaMe07.pdf:application/pdf},
-}
-
-@book{paton_advances_2013,
-	title = {Advances in Database Technology -- {EDBT} 2013 : 16th International Conference on Extending Database Technology, Genoa, Italy, March 18-22, 2013 : proceedings},
-	isbn = {978-1-4503-1597-5},
-	pagetotal = {793},
-	publisher = {Association for Computing Machinery},
-	author = {Paton, Norman W..},
-	date = {2013},
-	file = {PDF:/Users/alex/Zotero/storage/KFXXX4WA/HyperLogLog-in-Practice.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/ZQP3YGWJ/FlFuGaMe07.pdf:application/pdf},
 }
 
 @report{durand_loglog_nodate,
 	title = {Loglog Counting of Large Cardinalities},
 	abstract = {Using an auxiliary memory smaller than the size of this abstract , the {LogLog} algorithm makes it possible to estimate in a single pass and within a few percents the number of different words in the whole of Shakespeare's works. In general the {LogLog} algorithm makes use of m "small bytes" of auxiliary memory in order to estimate in a single pass the number of distinct elements (the "cardinality") in a file, and it does so with an accuracy that is of the order of 1/ √ m. The "small bytes" to be used in order to count cardinalities till Nmax comprise about log log Nmax bits, so that cardinalities well in the range of billions can be determined using one or two kilobytes of memory only. The basic version of the {LogLog} algorithm is validated by a complete analysis. An optimized version, super-{LogLog}, is also engineered and tested on real-life data. The algorithm parallelizes optimally.},
 	author = {Durand, Marianne and Flajolet, Philippe},
-	file = {PDF:/Users/alex/Zotero/storage/CCTHS3ZI/DuFl03-LNCS.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/CCTHS3ZI/DuFl03-LNCS.pdf:application/pdf},
 }
 
 @inproceedings{heule_hyperloglog_2013,
@@ -1755,7 +1746,7 @@
 	urldate = {2024-11-17},
 	date = {2013-03-18},
 	langid = {english},
-	file = {PDF:/Users/alex/Zotero/storage/Q44PWEWQ/Heule et al. - 2013 - HyperLogLog in practice algorithmic engineering of a state of the art cardinality estimation algori.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/Q44PWEWQ/Heule et al. - 2013 - HyperLogLog in practice algorithmic engineering of a state of the art cardinality estimation algori.pdf:application/pdf},
 }
 
 @article{ertl_ultraloglog_2024,
@@ -1777,7 +1768,7 @@
 	eprinttype = {arxiv},
 	eprint = {2308.16862 [cs]},
 	keywords = {Computer Science - Data Structures and Algorithms, Computer Science - Databases},
-	file = {PDF:/Users/alex/Zotero/storage/BFUCL6H7/Ertl - 2024 - UltraLogLog A Practical and More Space-Efficient Alternative to HyperLogLog for Approximate Distinc.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/BFUCL6H7/Ertl - 2024 - UltraLogLog A Practical and More Space-Efficient Alternative to HyperLogLog for Approximate Distinc.pdf:application/pdf},
 }
 
 @misc{ertl_new_2017,
@@ -1793,7 +1784,7 @@
 	eprinttype = {arxiv},
 	eprint = {1702.01284 [cs]},
 	keywords = {Computer Science - Data Structures and Algorithms},
-	file = {PDF:/Users/alex/Zotero/storage/79F9KACM/Ertl - 2017 - New cardinality estimation algorithms for HyperLogLog sketches.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/79F9KACM/Ertl - 2017 - New cardinality estimation algorithms for HyperLogLog sketches.pdf:application/pdf},
 }
 
 @article{ertl_setsketch_2021,
@@ -1815,7 +1806,7 @@
 	eprinttype = {arxiv},
 	eprint = {2101.00314 [cs]},
 	keywords = {Computer Science - Data Structures and Algorithms, Computer Science - Databases},
-	file = {PDF:/Users/alex/Zotero/storage/CCUXW26I/Ertl - 2021 - SetSketch Filling the Gap between MinHash and HyperLogLog.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/CCUXW26I/Ertl - 2021 - SetSketch Filling the Gap between MinHash and HyperLogLog.pdf:application/pdf},
 }
 
 @inproceedings{paterson_hyperloglog_2022,
@@ -1835,14 +1826,14 @@
 	urldate = {2024-11-17},
 	date = {2022-06},
 	langid = {english},
-	file = {PDF:/Users/alex/Zotero/storage/ZKIJYDDW/Paterson and Raynal - 2022 - HyperLogLog Exponentially Bad in Adversarial Settings.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/ZKIJYDDW/Paterson and Raynal - 2022 - HyperLogLog Exponentially Bad in Adversarial Settings.pdf:application/pdf},
 }
 
 @article{chabchoub_sliding_nodate,
 	title = {Sliding {HyperLogLog}: Estimating cardinality in a data stream},
 	author = {Chabchoub, Yousra and Hébrail, Georges},
 	langid = {english},
-	file = {PDF:/Users/alex/Zotero/storage/VUPNCMZK/Chabchoub and Hébrail - Sliding HyperLogLog Estimating cardinality in a data stream.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/VUPNCMZK/Chabchoub and Hébrail - Sliding HyperLogLog Estimating cardinality in a data stream.pdf:application/pdf},
 }
 
 @misc{ohayon_extendedhyperloglog_2021,
@@ -1859,7 +1850,7 @@
 	eprinttype = {arxiv},
 	eprint = {2106.06525 [cs]},
 	keywords = {Computer Science - Data Structures and Algorithms},
-	file = {PDF:/Users/alex/Zotero/storage/8KYRSR5Z/Ohayon - 2021 - ExtendedHyperLogLog Analysis of a new Cardinality Estimator.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/8KYRSR5Z/Ohayon - 2021 - ExtendedHyperLogLog Analysis of a new Cardinality Estimator.pdf:application/pdf},
 }
 
 @misc{pettie_simpler_2022,
@@ -1875,7 +1866,7 @@
 	eprinttype = {arxiv},
 	eprint = {2208.10578 [cs]},
 	keywords = {Computer Science - Data Structures and Algorithms},
-	file = {PDF:/Users/alex/Zotero/storage/6LTFPNN3/Pettie and Wang - 2022 - Simpler and Better Cardinality Estimators for HyperLogLog and PCSA.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/6LTFPNN3/Pettie and Wang - 2022 - Simpler and Better Cardinality Estimators for HyperLogLog and PCSA.pdf:application/pdf},
 }
 
 @misc{karppa_hyperlogloglog_2022,
@@ -1892,7 +1883,7 @@
 	eprinttype = {arxiv},
 	eprint = {2205.11327 [cs]},
 	keywords = {Computer Science - Data Structures and Algorithms},
-	file = {PDF:/Users/alex/Zotero/storage/Z7WYKY7W/Karppa and Pagh - 2022 - HyperLogLogLog Cardinality Estimation With One Log More.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/Z7WYKY7W/Karppa and Pagh - 2022 - HyperLogLogLog Cardinality Estimation With One Log More.pdf:application/pdf},
 }
 
 @article{oneil_lru-k_nodate,
@@ -1900,5 +1891,125 @@
 	abstract = {This paper introduces a new approach to database disk buffering, called the {LRU}-K method. The basic idea of {LRU}-K is to keep track of the times of the last K references to popular database pages, using this information to statistieall y estimate the interarrival times of references on a page by page basis. Although the {LRU}-K approach performs optimal statistical inference under relatively standard assmuptions, it is fairly simple and incurs little bookkeeping overhead. As we demonstrate with simulation experiments, the {LRU}-K algorithm surpasses conventional buffering algorithms in discriminating between frequently and infrequently referenced pages. In fact, {LRU}-K an approach the behavior of buffering algorithms in which page sets with known access frequencies are manually assigned to different buffer pools of specifically tuned sizes. Unlike such customized buffering algorithms however, the {LRU}-K method is self-tuning, and does not rely on external hints about workload characteristics. Furthermore, the {LRU}-K algo rithm adapts in real time to changing patterns of access.},
 	author = {O’Neil, J and O’Neill, E},
 	langid = {english},
-	file = {PDF:/Users/alex/Zotero/storage/P7C8ELSA/O’Neil and O’Neill - The LRU-K Page Replacement Algorithm For Database Disk Buffering.pdf:application/pdf},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/P7C8ELSA/O’Neil and O’Neill - The LRU-K Page Replacement Algorithm For Database Disk Buffering.pdf:application/pdf},
+}
+
+@article{yang_leaper_2020,
+	title = {Leaper: a learned prefetcher for cache invalidation in {LSM}-tree based storage engines},
+	volume = {13},
+	issn = {2150-8097},
+	url = {https://dl.acm.org/doi/10.14778/3407790.3407803},
+	doi = {10.14778/3407790.3407803},
+	shorttitle = {Leaper},
+	abstract = {Frequency-based cache replacement policies that work well on page-based database storage engines are no longer suﬃcient for the emerging {LSM}-tree (Log-Structure Merge-tree) based storage engines. Due to the append-only and copyon-write techniques applied to accelerate writes, the stateof-the-art {LSM}-tree adopts mutable record blocks and issues frequent background operations (i.e., compaction, ﬂush) to reorganize records in possibly every block. As a side-eﬀect, such operations invalidate the corresponding entries in the cache for each involved record, causing sudden drops on the cache hit rates and spikes on access latency. Given the observation that existing methods cannot address this cache invalidation problem, we propose Leaper, a machine learning method to predict hot records in an {LSM}-tree storage engine and prefetch them into the cache without being disturbed by background operations. We implement Leaper in a state-of-the-art {LSM}-tree storage engine, X-Engine, as a light-weight plug-in. Evaluation results show that Leaper eliminates about 70\% cache invalidations and 99\% latency spikes with at most 0.95\% overheads as measured in realworld workloads.},
+	pages = {1976--1989},
+	number = {12},
+	journaltitle = {Proceedings of the {VLDB} Endowment},
+	shortjournal = {Proc. {VLDB} Endow.},
+	author = {Yang, Lei and Wu, Hong and Zhang, Tieying and Cheng, Xuntao and Li, Feifei and Zou, Lei and Wang, Yujie and Chen, Rongyao and Wang, Jianying and Huang, Gui},
+	urldate = {2024-11-22},
+	date = {2020-08},
+	langid = {english},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/85E9BPJ5/Yang et al. - 2020 - Leaper a learned prefetcher for cache invalidation in LSM-tree based storage engines.pdf:application/pdf},
+}
+
+@article{huynh_towards_2024,
+	title = {Towards flexibility and robustness of {LSM} trees},
+	volume = {33},
+	issn = {1066-8888, 0949-877X},
+	url = {https://link.springer.com/10.1007/s00778-023-00826-9},
+	doi = {10.1007/s00778-023-00826-9},
+	abstract = {Log-structured merge trees ({LSM} trees) are increasingly used as part of the storage engine behind several data systems, and are frequently deployed in the cloud. As the number of applications relying on {LSM}-based storage backends increases, the problem of performance tuning of {LSM} trees receives increasing attention. We consider both nominal tunings—where workload and execution environment are accurately known a priori—and robust tunings—which consider uncertainty in the workload knowledge. This type of workload uncertainty is common in modern applications, notably in shared infrastructure environments like the public cloud. To address this problem, we introduce Endure, a new paradigm for tuning {LSM} trees in the presence of workload uncertainty. Speciﬁcally, we focus on the impact of the choice of compaction policy, size ratio, and memory allocation on the overall performance. Endure considers a robust formulation of the throughput maximization problem and recommends a tuning that offers near-optimal throughput when the executed workload is not the same, instead in a neighborhood of the expected workload. Additionally, we explore the robustness of ﬂexible {LSM} designs by proposing a new uniﬁed design called K-{LSM} that encompasses existing designs. We deploy our robust tuning system, Endure, on a stateof-the-art key-value store, {RocksDB}, and demonstrate throughput improvements of up to 5× in the presence of uncertainty. Our results indicate that the tunings obtained by Endure are more robust than tunings obtained under our expanded {LSM} design space. This indicates that robustness may not be inherent to a design, instead, it is an outcome of a tuning process that explicitly accounts for uncertainty.},
+	pages = {1105--1128},
+	number = {4},
+	journaltitle = {The {VLDB} Journal},
+	shortjournal = {The {VLDB} Journal},
+	author = {Huynh, Andy and Chaudhari, Harshal A. and Terzi, Evimaria and Athanassoulis, Manos},
+	urldate = {2024-11-22},
+	date = {2024-07},
+	langid = {english},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/76SE3BEG/Huynh et al. - 2024 - Towards flexibility and robustness of LSM trees.pdf:application/pdf},
+}
+
+@inproceedings{dayan_chucky_2021,
+	location = {Virtual Event China},
+	title = {Chucky: A Succinct Cuckoo Filter for {LSM}-Tree},
+	isbn = {978-1-4503-8343-1},
+	url = {https://dl.acm.org/doi/10.1145/3448016.3457273},
+	doi = {10.1145/3448016.3457273},
+	shorttitle = {Chucky},
+	abstract = {Modern key-value stores typically rely on an {LSM}-tree in storage ({SSD}) to handle writes and Bloom filters in memory ({DRAM}) to optimize reads. With ongoing advances in {SSD} technology shrinking the performance gap between storage and memory devices, the Bloom filters are now emerging as a performance bottleneck. We propose Chucky, a new design that replaces the multiple Bloom filters by a single Cuckoo filter that maps each data entry to an auxiliary address of its location within the {LSM}-tree. We show that while such a design entails fewer memory accesses than with Bloom filters, its false positive rate off the bat is higher. The reason is that the auxiliary addresses occupy bits that would otherwise be used as parts of the Cuckoo filter’s fingerprints. To address this, we harness techniques from information theory to succinctly encode the auxiliary addresses so that the fingerprints can stay large. As a result, Chucky achieves the best of both worlds: a modest access cost and a low false positive rate at the same time.},
+	eventtitle = {{SIGMOD}/{PODS} '21: International Conference on Management of Data},
+	pages = {365--378},
+	booktitle = {Proceedings of the 2021 International Conference on Management of Data},
+	publisher = {{ACM}},
+	author = {Dayan, Niv and Twitto, Moshe},
+	urldate = {2024-11-22},
+	date = {2021-06-09},
+	langid = {english},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/PTD42GCU/Dayan and Twitto - 2021 - Chucky A Succinct Cuckoo Filter for LSM-Tree.pdf:application/pdf},
+}
+
+@inproceedings{zhang_pipelined_2014,
+	location = {Phoenix, {AZ}, {USA}},
+	title = {Pipelined Compaction for the {LSM}-Tree},
+	isbn = {978-1-4799-3800-1 978-1-4799-3799-8},
+	url = {https://ieeexplore.ieee.org/document/6877309},
+	doi = {10.1109/IPDPS.2014.85},
+	abstract = {Write-optimized data structures like Log-Structured Merge-tree ({LSM}-tree) and its variants are widely used in key-value storage systems like {BigTable} and Cassandra. Due to deferral and batching, the {LSM}-tree based storage systems need background compactions to merge key-value entries and keep them sorted for future queries and scans. Background compactions play a key role on the performance of the {LSM}-tree based storage systems. Existing studies about the background compaction focus on decreasing the compaction frequency, reducing I/Os or conﬁning compactions on hot data key-ranges. They do not pay much attention to the computation time in background compactions. However, the computation time is no longer negligible, and even the computation takes more than 60\% of the total compaction time in storage systems using ﬂashbased {SSDs}. Therefore, an alternative method to speedup the compaction is to make good use of the parallelism of underlying hardware including {CPUs} and I/O devices.},
+	eventtitle = {2014 {IEEE} International Parallel \& Distributed Processing Symposium ({IPDPS})},
+	pages = {777--786},
+	booktitle = {2014 {IEEE} 28th International Parallel and Distributed Processing Symposium},
+	publisher = {{IEEE}},
+	author = {Zhang, Zigang and Yue, Yinliang and He, Bingsheng and Xiong, Jin and Chen, Mingyu and Zhang, Lixin and Sun, Ninghui},
+	urldate = {2024-11-22},
+	date = {2014-05},
+	langid = {english},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/EEKZTPWU/Zhang et al. - 2014 - Pipelined Compaction for the LSM-Tree.pdf:application/pdf},
+}
+
+@article{wu_lsm-trie_nodate,
+	title = {{LSM}-trie: An {LSM}-tree-based Ultra-Large Key-Value Store for Small Data},
+	abstract = {Key-value ({KV}) stores have become a backbone of largescale applications in today’s data centers. The data set of the store on a single server can grow to billions of {KV} items or many terabytes, while individual data items are often small (with their values as small as a couple of bytes). It is a daunting task to efﬁciently organize such an ultra-large {KV} store to support fast access. Current {KV} storage systems have one or more of the following inadequacies: (1) very high data write ampliﬁcations, (2) large index set, and (3) dramatic degradation of read performance with overspill index out of memory.},
+	author = {Wu, Xingbo and Xu, Yuehai and Jiang, Song},
+	langid = {english},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/3Z55Q4RB/Wu et al. - LSM-trie An LSM-tree-based Ultra-Large Key-Value Store for Small Data.pdf:application/pdf},
+}
+
+@article{dayan_spooky_2022,
+	title = {Spooky: granulating {LSM}-tree compactions correctly},
+	volume = {15},
+	issn = {2150-8097},
+	url = {https://dl.acm.org/doi/10.14778/3551793.3551853},
+	doi = {10.14778/3551793.3551853},
+	shorttitle = {Spooky},
+	abstract = {Modern storage engines and key-value stores have come to rely on the log-structured merge-tree ({LSM}-tree) as their core data structure. {LSM}-tree operates by gradually merge-sorting data across levels of exponentially increasing capacities in storage. A crucial design dimension of {LSM}-tree is its compaction granularity. Some designs perform Full Merge, whereby entire levels get compacted at once. Others perform Partial Merge, whereby smaller groups of files with overlapping key ranges are compacted independently. This paper shows that both strategies exhibit serious flaws. With Full Merge, space-amplification is exorbitant. The reason is that while compacting the {LSM}-tree’s largest level, there must be at least twice as much storage space as data to store both the original and new files until the compaction is finished. On the other hand, Partial Merge exhibits excessive write-amplification. The reason is twofold. (1) The files getting compacted typically do not have perfectly overlapping key ranges, and so some non-overlapping data is superfluously rewritten in each compaction. (2) Files with different lifetimes become interspersed within the {SSD} leading to high {SSD} garbage-collection overheads. As the data size grows, these problems grow in magnitude.},
+	pages = {3071--3084},
+	number = {11},
+	journaltitle = {Proceedings of the {VLDB} Endowment},
+	shortjournal = {Proc. {VLDB} Endow.},
+	author = {Dayan, Niv and Weiss, Tamar and Dashevsky, Shmuel and Pan, Michael and Bortnikov, Edward and Twitto, Moshe},
+	urldate = {2024-11-22},
+	date = {2022-07},
+	langid = {english},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/YS9XVDED/Dayan et al. - 2022 - Spooky granulating LSM-tree compactions correctly.pdf:application/pdf},
+}
+
+@article{matsunobu_myrocks_2020,
+	title = {{MyRocks}: {LSM}-tree database storage engine serving Facebook's social graph},
+	volume = {13},
+	issn = {2150-8097},
+	url = {https://dl.acm.org/doi/10.14778/3415478.3415546},
+	doi = {10.14778/3415478.3415546},
+	shorttitle = {{MyRocks}},
+	abstract = {Facebook uses {MySQL} to manage tens of petabytes of data in its main database named the User Database ({UDB}). {UDB} serves social activities such as likes, comments, and shares. In the past, Facebook used {InnoDB}, a B+Tree based storage engine as the backend. The challenge was to find an index structure using less space and write amplification [1]. {LSM}-tree [2] has the potential to greatly improve these two bottlenecks. {RocksDB}, an {LSM} tree-based key/value store was already widely used in variety of applications but had a very low-level key-value interface. To overcome these limitations, {MyRocks}, a new {MySQL} storage engine, was built on top of {RocksDB} by adding relational capabilities. With {MyRocks}, using the {RocksDB} {API}, significant efficiency gains were achieved while still benefiting from all the {MySQL} features and tools. The transition was mostly transparent to client applications.},
+	pages = {3217--3230},
+	number = {12},
+	journaltitle = {Proceedings of the {VLDB} Endowment},
+	shortjournal = {Proc. {VLDB} Endow.},
+	author = {Matsunobu, Yoshinori and Dong, Siying and Lee, Herman},
+	urldate = {2024-11-22},
+	date = {2020-08},
+	langid = {english},
+	file = {PDF:/Users/alex/Documents/Zotoro/storage/DF4GMEH3/Matsunobu et al. - 2020 - MyRocks LSM-tree database storage engine serving Facebook's social graph.pdf:application/pdf},
 }
