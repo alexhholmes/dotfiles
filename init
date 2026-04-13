@@ -1,0 +1,48 @@
+#!/bin/bash
+
+setup_macos() {
+    # Dock
+    defaults write com.apple.dock autohide -bool true
+    defaults write com.apple.dock autohide-delay -float 0
+    defaults write com.apple.dock autohide-time-modifier -float 0.15
+    defaults write com.apple.dock show-recents -bool false
+    defaults write com.apple.dock tilesize -int 36
+    defaults write com.apple.dock mineffect -string "scale"
+    defaults write com.apple.dock showAppExposeGestureEnabled -bool false
+    defaults write com.apple.dock showLaunchpadGestureEnabled -bool false
+    killall Dock
+
+    # Finder
+    defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+    defaults write com.apple.finder ShowPathbar -bool true
+    defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+    defaults write com.apple.finder _FXSortFoldersFirst -bool true
+    defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+    killall Finder
+
+    # Keyboard
+    defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+    defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+    defaults write NSGlobalDomain KeyRepeat -int 2
+    defaults write NSGlobalDomain InitialKeyRepeat -int 15
+    defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+    defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+    # Screenshots
+    defaults write com.apple.screencapture location -string "~/Desktop/Screenshots"
+    defaults write com.apple.screencapture type -string "png"
+
+    # Homebrew
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew bundle --file=homebrew/brewfile
+
+    # Copy Configs
+    cp -r fonts/. "$HOME/Library/Fonts/"
+}
+
+OS="$(uname -s)"
+
+case "$OS" in
+    Darwin) setup_macos ;;
+    *)      echo "Unsupported OS: $OS" && exit 1 ;;
+esac

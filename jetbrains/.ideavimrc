@@ -1,0 +1,2 @@
+nnoremap <C-i> i_<Esc>r
+set clipboard+=ideaput
